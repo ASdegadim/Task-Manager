@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apontamento de Horas - Moore Brasil</title>
+    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="todo.css"> </head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Moore Brasil - Apontamento de Horas</div>
+                <div class="user-info">
+                    <span><a href="index.html" class="nav-link">Voltar ao Gerenciador</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-section active">
+            <div class="section-header">
+                <h2 class="section-title" id="formTitle">Meu Apontamento Diário</h2>
+            </div>
+
+            <div class="card" id="entry-card">
+                <h3 id="formHeader">Novo Lançamento</h3>
+                <form id="timeEntryForm">
+                    <input type="hidden" id="editingEntryId">
+
+                    <div class="form-grid-todo">
+                        <div class="form-group">
+                            <label for="entryDate">Data:</label>
+                            <input type="date" id="entryDate" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectSelect">Projeto:</label>
+                            <select id="projectSelect" class="form-control" required>
+                                <option value="">Selecione um Projeto</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="clientSelect">Cliente:</label>
+                            <select id="clientSelect" class="form-control" required>
+                                <option value="">Selecione um Cliente</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="taskSelect">Atividade Principal:</label>
+                            <select id="taskSelect" class="form-control" required>
+                                <option value="">Selecione uma Atividade</option>
+                            </select>
+                        </div>
+                         <div class="form-group">
+                            <label for="subtaskSelect">Subtarefa (Opcional):</label>
+                            <select id="subtaskSelect" class="form-control">
+                                <option value="">Nenhuma</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="hoursSpent">Horas Gastas:</label>
+                            <input type="number" id="hoursSpent" class="form-control" step="0.25" min="0.25" placeholder="Ex: 2.5" required>
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label for="entryDescription">Descrição do Trabalho Realizado:</label>
+                        <textarea id="entryDescription" class="form-control" rows="2" placeholder="Descreva brevemente o que foi feito..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group form-group-checkbox">
+                        <input type="checkbox" id="entryBilled" class="form-checkbox">
+                        <label for="entryBilled">Lançado no Gerenciador?</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-success" id="submitBtn">Adicionar Apontamento</button>
+                    <button type="button" id="cancelEditBtn" class="btn btn-secondary" style="display: none; margin-left: 10px;">Cancelar Edição</button>
+                </form>
+            </div>
+
+            <div class="section-header" style="margin-top: 30px; align-items: flex-end;">
+                <h2 class="section-title">Meus Lançamentos</h2>
+                <div class="view-toggle-buttons">
+                    <button class="btn btn-sm active" id="viewDetailedBtn">Visão Detalhada</button>
+                    <button class="btn btn-sm" id="viewGroupedBtn">Visão Agrupada por Atividade</button>
+                </div>
+            </div>
+            <small id="view-mode-description" style="color: #555; display:block; text-align: right;"></small>
+
+            <div class="filter-bar card">
+                <div class="form-group">
+                    <label>Filtrar por Data:</label>
+                    <input type="date" id="filterDate" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Filtrar por Projeto:</label>
+                    <select id="filterProject" class="form-control"><option value="">Todos</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Filtrar por Cliente:</label>
+                    <select id="filterClient" class="form-control"><option value="">Todos</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Filtrar por Atividade:</label>
+                    <select id="filterTask" class="form-control"><option value="">Todas</option></select>
+                </div>
+                 <div class="form-group">
+                    <label>Filtrar por Subtarefa:</label>
+                    <select id="filterSubtask" class="form-control"><option value="">Todas</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Filtrar por Status:</label>
+                    <select id="filterBilled" class="form-control">
+                        <option value="">Todos</option>
+                        <option value="yes">Lançados</option>
+                        <option value="no">Não Lançados</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="timeEntriesList">
+                <p>Nenhum lançamento encontrado.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+/* Estilos específicos para a página de Apontamento de Horas */
+
+.nav-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#entry-card {
+    border-left-color: #3498db;
+}
+
+.form-grid-todo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* NOVO: Estilo para o container do checkbox no formulário */
+.form-group-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.form-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+
+.time-entry-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    border-left: 4px solid #95a5a6;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* NOVO: Estilo para o card quando marcado como lançado/faturado */
+.time-entry-card.billed {
+    border-left-color: #27ae60;
+    background-color: #f1f8f3;
+}
+.time-entry-card.billed .entry-details h4 {
+    color: #27ae60;
+}
+
+
+.entry-details {
+    flex-grow: 1;
+}
+
+.entry-details h4 {
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.entry-details p {
+    margin: 2px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.entry-details .path {
+    font-size: 12px;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.entry-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px; /* Reduzido para acomodar mais botões */
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+
+.entry-hours {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.entry-actions .btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+/* NOVO: Estilo para o botão de toggle */
+.btn-info {
+    background-color: #3498db;
+    color: white;
+}
+.btn-info:hover {
+    background-color: #2980b9;
+}
+.time-entry-card.billed .btn-info {
+    background-color: #27ae60;
+}
+.time-entry-card.billed .btn-info:hover {
+    background-color: #229954;
+}
+
+
+/* Estilos para a barra de filtros */
+.filter-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left-color: #f39c12;
+}
+
+/* Estilos para os botões de visualização */
+.view-toggle-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.view-toggle-buttons .btn {
+    background-color: #ecf0f1;
+    color: #333;
+    border: 1px solid #bdc3c7;
+}
+
+.view-toggle-buttons .btn.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+/* Estilos para a nova visualização agrupada */
+.grouped-entry-card {
+    background-color: #fdfdfd;
+    border-left: 4px solid #2ecc71;
+}
+
+.grouped-entry-card .entry-details h4 {
+    font-size: 16px;
+}
+
+.grouped-entry-card .entry-hours {
+    color: #2ecc71;
+}
+
+.description-list {
+    list-style-type: '– ';
+    padding-left: 20px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #555;
+    background: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+/* Estilo para o botão de cancelar edição */
+.btn-secondary {
+    background-color: #95a5a6;
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+}
