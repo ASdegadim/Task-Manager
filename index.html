@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Projetos de Auditoria - Moore Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Moore Brasil - Gerenciador de Auditoria</div>
+                <div class="user-info">
+                    <span><a href="todo.html" class="nav-link">Apontamento de Horas</a></span>
+                    <span style="color: #ccc; margin: 0 10px;">|</span>
+                    <span>Anderson Soares - Auditor Sênior</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="nav-tabs">
+            <button class="nav-tab" data-section="dashboard">Dashboard</button>
+            <button class="nav-tab" data-section="projects">Projetos</button>
+            <button class="nav-tab" data-section="clients">Clientes</button>
+            <button class="nav-tab" data-section="tasks">Tarefas</button>
+            <button class="nav-tab" data-section="controls">Controles</button>
+            <button class="nav-tab" data-section="reports">Relatórios</button>
+            <button class="nav-tab" data-section="config">Configurações</button>
+        </nav>
+
+        <div class="content-section" id="dashboard"></div>
+        <div class="content-section" id="projects"></div>
+        <div class="content-section" id="clients"></div>
+        <div class="content-section" id="tasks"></div>
+        <div class="content-section" id="controls"></div>
+        <div class="content-section" id="reports"></div>
+        <div class="content-section" id="config"></div>
+        <div id="reportContainer" style="display:none;"></div>
+    </div>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Novo Projeto</h3>
+                <span class="close" data-modal-id="projectModal">&times;</span>
+            </div>
+            <form id="projectForm" class="modal-body">
+                <div class="form-group">
+                    <label>Nome do Projeto:</label>
+                    <input type="text" id="projectName" class="form-control" required>
+                </div>
+                 <div class="form-group">
+                    <label>Ano de Análise:</label>
+                    <input type="number" id="projectYear" class="form-control" placeholder="Ex: 2025" required>
+                </div>
+                <div class="form-group">
+                    <label>Tipo:</label>
+                    <select id="projectType" class="form-control" required>
+                        <option value="">Selecione</option>
+                        <option value="individual">Cliente Individual</option>
+                        <option value="group">Grupo de Clientes</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Horas Orçadas Total:</label>
+                    <input type="number" step="0.25" id="projectBudgetedHours" class="form-control" required>
+                    <small>Para "Grupo de Clientes", este valor é a soma das horas dos clientes.</small>
+                </div>
+                <div class="form-group">
+                    <label>Descrição:</label>
+                    <textarea id="projectDescription" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Data de Início da Execução:</label>
+                    <input type="date" id="projectStartDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Data de Término da Execução:</label>
+                    <input type="date" id="projectEndDate" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-success">Salvar Projeto</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="clientModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Novo Cliente</h3>
+                <span class="close" data-modal-id="clientModal">&times;</span>
+            </div>
+            <form id="clientForm" class="modal-body">
+                <div class="form-group">
+                    <label>Nome do Cliente:</label>
+                    <input type="text" id="clientName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>CNPJ/CPF:</label>
+                    <input type="text" id="clientDocument" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Projeto:</label>
+                    <select id="clientProject" class="form-control" required><option value="">Selecione</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Horas Orçadas para este Cliente:</label>
+                    <input type="number" step="0.25" id="clientBudgetedHours" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Responsável Técnico:</label>
+                    <input type="text" id="clientResponsible" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Salvar Cliente</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Nova Tarefa</h3>
+                <span class="close" data-modal-id="taskModal">&times;</span>
+            </div>
+            <form id="taskForm" class="modal-body">
+                <div class="form-group">
+                    <label>Nome da Tarefa:</label>
+                    <input type="text" id="taskName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Projeto:</label>
+                    <select id="taskProject" class="form-control" required><option value="">Selecione</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Cliente (se aplicável):</label>
+                    <select id="taskClient" class="form-control"><option value="">Selecione</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Tarefa Pai (subtarefa):</label>
+                    <select id="taskParent" class="form-control"><option value="">Nenhuma</option></select>
+                </div>
+                <div class="form-group">
+                    <label>Horas Estimadas:</label>
+                    <input type="number" step="0.25" id="taskEstimatedHours" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Fase do Trabalho:</label>
+                    <select id="taskPhase" class="form-control" required>
+                        <option value="preliminar">Trabalho Preliminar</option>
+                        <option value="final">Trabalho Final</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Data de Vencimento:</label>
+                    <input type="date" id="taskDueDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Prioridade:</label>
+                    <select id="taskPriority" class="form-control" required>
+                        <option value="low">Baixa</option>
+                        <option value="medium">Média</option>
+                        <option value="high">Alta</option>
+                        <option value="urgent">Urgente</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Responsáveis:</label>
+                    <input type="text" id="taskAssignee" class="form-control" required>
+                    <small>Para mais de um, separe os nomes por vírgula. Ex: Anderson, Maria</small>
+                </div>
+                <div class="form-group">
+                    <label>Descrição:</label>
+                    <textarea id="taskDescription" class="form-control" rows="3"></textarea>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label>Riscos Associados</label>
+                    <div id="taskRisksContainer" class="risk-container"></div>
+                    <button type="button" class="btn btn-info btn-sm" data-action="add-risk" data-container="taskRisksContainer">Adicionar Risco</button>
+                </div>
+                <button type="submit" class="btn btn-success">Salvar Tarefa</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="controlPointModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="controlPointModalTitle">Novo Ponto de Controle</h3>
+                <span class="close" data-modal-id="controlPointModal">&times;</span>
+            </div>
+            <form id="controlPointForm" class="modal-body">
+                <input type="hidden" id="controlPointId">
+                <div class="form-group">
+                    <label>Projeto:</label>
+                    <select id="controlProject" class="form-control" required></select>
+                </div>
+                <div class="form-group">
+                    <label>Clientes (selecione um ou mais):</label>
+                    <div id="controlClientList" class="checkbox-container">
+                        <small>Selecione um projeto para ver os clientes.</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tarefa Associada (opcional):</label>
+                    <select id="controlTask" class="form-control"></select>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label>Título do Ponto:</label>
+                    <input type="text" id="controlTitle" class="form-control" required>
+                </div>
+                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                    <div class="form-group">
+                        <label>Tipo do Ponto:</label>
+                        <select id="controlType" class="form-control" required>
+                            <option value="">Selecione...</option>
+                            <option value="cci">CCI (Deficiência de Controle Interno)</option>
+                            <option value="ressalva">Ressalva</option>
+                            <option value="enfase">Ênfase</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Fase:</label>
+                        <select id="controlPhase" class="form-control" required>
+                            <option value="">Selecione...</option>
+                            <option value="preliminar">Preliminar</option>
+                            <option value="final">Final</option>
+                            <option value="operacional">Operacional</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Síntese (Achado):</label>
+                    <textarea id="controlSynthesis" class="form-control" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Recomendação:</label>
+                    <textarea id="controlRecommendation" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Base Normativa / Legislação:</label>
+                    <input type="text" id="controlLegislation" class="form-control" placeholder="Ex: NBC TA 265, Lei 6.404/76">
+                </div>
+                <button type="submit" class="btn btn-success">Salvar Ponto de Controle</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="replicateControlPointModal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3>Replicar Ponto de Controle</h3>
+                <span class="close" data-modal-id="replicateControlPointModal">&times;</span>
+            </div>
+            <form id="replicateControlPointForm" class="modal-body">
+                <input type="hidden" id="sourceControlPointId">
+                <p>Replicando: "<strong id="replicateControlPointName"></strong>"</p>
+                <p>Selecione o destino da replicação:</p>
+                <div id="replicationOptionsContainer">
+                    </div>
+                <div style="text-align: right; margin-top: 20px;">
+                    <button type="submit" class="btn btn-success">Confirmar Replicação</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="editProjectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Editar Projeto</h3>
+                <span class="close" data-modal-id="editProjectModal">&times;</span>
+            </div>
+            <form id="editProjectForm" class="modal-body">
+                <input type="hidden" id="editProjectId">
+                <div class="form-group"><label>Nome do Projeto:</label><input type="text" id="editProjectName" class="form-control" required></div>
+                <div class="form-group"><label>Ano de Análise:</label><input type="number" id="editProjectYear" class="form-control" required></div>
+                <div class="form-group">
+                    <label>Tipo:</label>
+                    <select id="editProjectType" class="form-control" required>
+                        <option value="individual">Cliente Individual</option>
+                        <option value="group">Grupo de Clientes</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Horas Orçadas:</label><input type="number" step="0.25" id="editProjectBudgetedHours" class="form-control" required></div>
+                <div class="form-group"><label>Descrição:</label><textarea id="editProjectDescription" class="form-control" rows="3"></textarea></div>
+                <div class="form-group"><label>Data de Início:</label><input type="date" id="editProjectStartDate" class="form-control" required></div>
+                <div class="form-group"><label>Data de Término:</label><input type="date" id="editProjectEndDate" class="form-control" required></div>
+                <div class="form-group">
+                    <label>Status:</label>
+                    <select id="editProjectStatus" class="form-control" required>
+                        <option value="planning">Planejamento</option>
+                        <option value="progress">Em Andamento</option>
+                        <option value="completed">Concluído</option>
+                        <option value="overdue">Atrasado</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success">Salvar</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="editClientModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Editar Cliente</h3>
+                <span class="close" data-modal-id="editClientModal">&times;</span>
+            </div>
+            <form id="editClientForm" class="modal-body">
+                <input type="hidden" id="editClientId">
+                <div class="form-group"><label>Nome:</label><input type="text" id="editClientName" class="form-control" required></div>
+                <div class="form-group"><label>CNPJ/CPF:</label><input type="text" id="editClientDocument" class="form-control" required></div>
+                <div class="form-group"><label>Projeto:</label><select id="editClientProject" class="form-control" required></select></div>
+                <div class="form-group"><label>Horas Orçadas:</label><input type="number" step="0.25" id="editClientBudgetedHours" class="form-control" required></div>
+                <div class="form-group"><label>Responsável:</label><input type="text" id="editClientResponsible" class="form-control"></div>
+                <button type="submit" class="btn btn-success">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="editTaskModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Editar Tarefa</h3>
+                <span class="close" data-modal-id="editTaskModal">&times;</span>
+            </div>
+            <form id="editTaskForm" class="modal-body">
+                <input type="hidden" id="editTaskId">
+                <div class="form-group"><label>Nome:</label><input type="text" id="editTaskName" class="form-control" required></div>
+                <div class="form-group"><label>Descrição:</label><textarea id="editTaskDescription" class="form-control" rows="2"></textarea></div>
+                <div class="form-group"><label>Horas Estimadas:</label><input type="number" step="0.25" id="editTaskEstimatedHours" class="form-control" required></div>
+                <div class="form-group"><label>Horas Realizadas:</label><input type="number" step="0.25" id="editTaskActualHours" class="form-control"></div>
+                <div class="form-group">
+                    <label>Fase:</label>
+                    <select id="editTaskPhase" class="form-control" required>
+                        <option value="preliminar">Trabalho Preliminar</option>
+                        <option value="final">Trabalho Final</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Vencimento:</label><input type="date" id="editTaskDueDate" class="form-control" required></div>
+                <div class="form-group">
+                    <label>Prioridade:</label>
+                    <select id="editTaskPriority" class="form-control" required>
+                        <option value="low">Baixa</option>
+                        <option value="medium">Média</option>
+                        <option value="high">Alta</option>
+                        <option value="urgent">Urgente</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Status:</label>
+                     <select id="editTaskStatus" class="form-control" required>
+                        <option value="pending">Pendente</option>
+                        <option value="progress">Em Andamento</option>
+                        <option value="review">Em Revisão</option>
+                        <option value="completed">Concluído</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Responsáveis:</label>
+                    <input type="text" id="editTaskAssignee" class="form-control" required>
+                    <small>Para mais de um, separe os nomes por vírgula.</small>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label>Riscos Associados</label>
+                    <div id="editTaskRisksContainer" class="risk-container"></div>
+                    <button type="button" class="btn btn-info btn-sm" data-action="add-risk" data-container="editTaskRisksContainer">Adicionar Risco</button>
+                </div>
+                <button type="submit" class="btn btn-success">Salvar</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="replicateTaskModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Replicar Tarefa</h3>
+                <span class="close" data-modal-id="replicateTaskModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>Replicando: <strong id="replicateTaskName"></strong></p>
+                <p>Selecione os clientes e ajuste as horas estimadas.</p>
+                <form id="replicateTaskForm">
+                    <input type="hidden" id="originalTaskId">
+                    <div class="replicate-client-list" id="replicateClientList" style="margin-top: 20px;"></div>
+                    <div style="text-align: right; margin-top: 20px;">
+                        <button type="submit" class="btn btn-success">Salvar Réplicas</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="replicateRisksModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Replicar Riscos</h3>
+                <span class="close" data-modal-id="replicateRisksModal">&times;</span>
+            </div>
+            <form id="replicateRisksForm" class="modal-body">
+                <input type="hidden" id="sourceRiskTaskId">
+                <p>Replicar os riscos da tarefa: <strong id="sourceRiskTaskName"></strong></p>
+                <div id="risksToReplicateList" class="risk-list-preview"></div>
+                <p style="margin-top: 15px;"><strong>Selecione as tarefas de destino (com o mesmo nome no projeto):</strong></p>
+                <div id="targetTasksList" class="replicate-tasks-list"></div>
+                <div style="text-align: right; margin-top: 20px;">
+                    <button class="btn btn-success" type="submit">Salvar Réplicas de Riscos</button>
+                </div>
+            </form>
+        </div>
+    </div>
+	
+	<div class="modal" id="replicateSubtasksModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Replicar Subtarefa</h3>
+                <span class="close" data-modal-id="replicateSubtasksModal">&times;</span>
+            </div>
+            <form class="modal-body" id="replicateSubtasksForm">
+                <input id="sourceSubtaskId" type="hidden"/>
+                <p>Replicar a subtarefa: <strong id="sourceSubtasksTaskName"></strong></p>
+                <div class="risk-list-preview" id="subtasksToReplicateList"></div>
+                <p style="margin-top: 15px;"><strong>Selecione as tarefas de destino (tarefas principais com o mesmo nome no projeto):</strong></p>
+                <div class="replicate-tasks-list" id="targetSubtasksTasksList"></div>
+                <div style="text-align: right; margin-top: 20px;">
+                    <button class="btn btn-success" type="submit">Salvar Réplicas</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

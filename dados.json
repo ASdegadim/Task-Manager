@@ -1,0 +1,4230 @@
+{
+  "projects": [
+    {
+      "id": "mevhuqdsw4tx0lrjmr",
+      "name": "Grupo CR Almeida",
+      "year": "2025",
+      "type": "group",
+      "budgetedHours": 0,
+      "description": "",
+      "startDate": "2025-09-29",
+      "endDate": "2026-03-20",
+      "status": "planning",
+      "createdAt": "2025-08-28T14:23:21.616Z"
+    },
+    {
+      "id": "mevhwv2z4yv19grcm3b",
+      "name": "Grupo Darwin",
+      "year": "2025",
+      "type": "group",
+      "budgetedHours": 0,
+      "description": "",
+      "startDate": "2025-10-27",
+      "endDate": "2026-02-13",
+      "status": "planning",
+      "createdAt": "2025-08-28T14:25:01.019Z"
+    },
+    {
+      "id": "mevbdv6rah4qrv7ay4o",
+      "name": "Grupo Procópio",
+      "description": "",
+      "startDate": "2025-09-09",
+      "endDate": "2026-04-10",
+      "budgetedHours": 0,
+      "type": "group",
+      "actualHours": 0,
+      "status": "planning",
+      "createdAt": "2025-08-28T11:22:16.995Z",
+      "year": "2025",
+      "updatedAt": "2025-08-28T13:04:54.267Z"
+    },
+    {
+      "id": "mevqnrglzn5l5vfu07",
+      "name": "Grupo San Julian",
+      "year": "2025",
+      "type": "group",
+      "budgetedHours": 0,
+      "description": "",
+      "startDate": "2025-11-17",
+      "endDate": "2026-02-20",
+      "status": "planning",
+      "createdAt": "2025-08-28T18:29:52.966Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "mevbfv2d3ucs3m3iq62",
+      "name": "PROCOPIO INDUSTRIA E COMERCIO LTDA",
+      "document": "76642891000141",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "budgetedHours": 500,
+      "responsible": "Anderson Soares",
+      "actualHours": 0,
+      "createdAt": "2025-08-28T11:23:50.149Z",
+      "updatedAt": "2025-08-28T12:46:53.376Z"
+    },
+    {
+      "id": "mevefs5d10vqocf7tx4",
+      "name": "PROCOPIO EMBALAGENS LTDA",
+      "document": "03941878000110",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "budgetedHours": 330,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T12:47:45.217Z"
+    },
+    {
+      "id": "mevegh1sg4ib6zwiwe",
+      "name": "ALCATEC PRODUTOS SINTETICOS LTDA",
+      "document": "05236060000121",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "budgetedHours": 350,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T12:48:17.488Z"
+    },
+    {
+      "id": "mevehj3m4vvzrpmll5j",
+      "name": "ALCABRAS INDUSTRIA E COMERCIO LTDA",
+      "document": "06110207000103",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "budgetedHours": 390,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T12:49:06.802Z"
+    },
+    {
+      "id": "mevwar7ew8478kvjewq",
+      "name": "ASSOCIACAO SAN JULIAN, AMIGOS E COLABORADORES",
+      "document": "07070735000130",
+      "projectId": "mevqnrglzn5l5vfu07",
+      "budgetedHours": 0,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T21:07:43.802Z"
+    },
+    {
+      "id": "mevwbmn49ilxci6198v",
+      "name": "ADMINISTRACAO DE BENS SJ LTDA",
+      "document": "80138431000158",
+      "projectId": "mevqnrglzn5l5vfu07",
+      "budgetedHours": 0,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T21:08:24.544Z"
+    },
+    {
+      "id": "mevwcuyu1pi28cu3yr9",
+      "name": "DARWIN STARTER INVESTIMENTOS S.A.",
+      "document": "28049283000185",
+      "projectId": "mevhwv2z4yv19grcm3b",
+      "budgetedHours": 0,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T21:09:21.990Z"
+    },
+    {
+      "id": "mevwdlq4tuc742quvxg",
+      "name": "DARWIN HOLDING S.A.",
+      "document": "32497189000166",
+      "projectId": "mevhwv2z4yv19grcm3b",
+      "budgetedHours": 0,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-08-28T21:09:56.668Z"
+    },
+    {
+      "id": "mfqwhueyk3zyq9l1ge",
+      "name": "CR ALMEIDA S/A - ENGENHARIA E CONSTRUCOES",
+      "document": "33317249000184",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "budgetedHours": 100,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-09-19T13:54:06.010Z"
+    },
+    {
+      "id": "mfqwiq56bkl7m6ta0nr",
+      "name": "C R ALMEIDA S/A - ENGENHARIA DE OBRAS",
+      "document": "33059908000120",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "budgetedHours": 100,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-09-19T13:54:47.130Z"
+    },
+    {
+      "id": "mfqwjd6pu0x00hgdq6d",
+      "name": "PARTICIPARE ADMINISTRACAO E PARTICIPACOES LTDA",
+      "document": "80261100000100",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "budgetedHours": 100,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-09-19T13:55:16.993Z"
+    },
+    {
+      "id": "mfqwjyx5rx4whj91et",
+      "name": "PRIMAV INFRAESTRUTURA S/A",
+      "document": "21314575000159",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "budgetedHours": 100,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-09-19T13:55:45.161Z"
+    },
+    {
+      "id": "mfqwkdjym1kwif5i2vb",
+      "name": "PRIMAV CONSTRUCOES E COMERCIO S/A",
+      "document": "81110124000121",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "budgetedHours": 100,
+      "responsible": "Anderson Soares",
+      "createdAt": "2025-09-19T13:56:04.126Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "mevcml9ictlmtuwoqzh",
+      "name": "Operacional de Receita",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 60,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "high",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T11:57:03.654Z",
+      "updatedAt": "2025-09-10T12:53:05.487Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Reconhecimento: Receitas registradas antes do cumprimento das obrigações de performance ou transferência de controle (CPC 47/IFRS 15)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Antecipação ou postergação de receitas entre períodos, especialmente próximo ao fechamento do exercício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Vendas fictícias registradas para inflar faturamento, incluindo operações com partes relacionadas ou clientes inexistentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Preço de Transferência: Operações com partes relacionadas registradas por valores diferentes dos praticados com terceiros independentes."
+        }
+      ]
+    },
+    {
+      "id": "mevcxbun4o61c3n184q",
+      "name": "Contingências",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Luiz Gibur",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:05:24.671Z"
+    },
+    {
+      "id": "mevcyjmbpv1ke2hfw2",
+      "name": "Operacional de Custos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 60,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "urgent",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:06:21.395Z",
+      "updatedAt": "2025-09-10T12:52:53.620Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Apropriação: Custos diretos e indiretos alocados inadequadamente aos produtos ou períodos incorretos (mão de obra, matéria-prima, overhead)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margem bruta e operacional."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Método de Custeio: Aplicação inadequada do sistema de custos (absorção, variável) ou mudança de critério sem justificativa técnica."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Inventário Físico: Diferenças entre estoque físico e contábil impactando diretamente o CMV e resultado do período."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Perdas/Obsolescência: Produtos deteriorados, vencidos ou obsoletos não baixados adequadamente dos estoques."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Integração: Falta de integração entre sistemas de produção, estoque e contabilidade gerando divergências nos custos."
+        }
+      ]
+    },
+    {
+      "id": "mevczutusrf9kut6ll",
+      "name": "Inventário",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-12-31",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:07:22.578Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Integridade da Contagem: Itens não contados por localização inadequada, dupla contagem ou omissão de áreas de armazenagem."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Movimentações de entrada/saída durante a contagem não controladas adequadamente, distorcendo o resultado físico."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Identificação: Produtos mal codificados, sem etiquetas ou com descrições inadequadas gerando divergências na apuração."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Unidade de Medida: Conversões incorretas entre unidades (kg/tonelada, metro/metro quadrado) afetando quantidades inventariadas."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Localização: Estoques em trânsito, consignação, terceiros ou filiais não incluídos adequadamente no inventário geral."
+        }
+      ],
+      "updatedAt": "2025-09-04T21:07:14.334Z"
+    },
+    {
+      "id": "mevd1zxz0xqy1229na",
+      "name": "Estoques",
+      "description": "Teste Substantivo",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:09:02.519Z",
+      "updatedAt": "2025-09-04T17:47:21.314Z",
+      "risks": []
+    },
+    {
+      "id": "mevd35e6ijnbkscrl5q",
+      "name": "Despesas Gerais e Administrativas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 16,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:09:56.238Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Competência: Despesas registradas em períodos incorretos, afetando o matching com as receitas correspondentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margens operacionais."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:15:11.345Z"
+    },
+    {
+      "id": "mevd6et2xvizx8ew1",
+      "name": "Disponibilidades",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T12:12:28.406Z",
+      "updatedAt": "2025-08-29T16:23:18.526Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Conversão inadequada de moeda estrangeira ou aplicações financeiras avaliadas por valor incorreto (não marked-to-market quando aplicável)."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Integridade: Omissão de contas bancárias, aplicações financeiras ou numerário existente (caixa, conta movimento)."
+        }
+      ]
+    },
+    {
+      "id": "mevelmiobbx2gso7nwd",
+      "name": "Planejamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "progress",
+      "createdAt": "2025-08-28T12:52:17.856Z",
+      "updatedAt": "2025-09-04T21:08:27.668Z",
+      "risks": []
+    },
+    {
+      "id": "mevg4xm3sob3mxndo09",
+      "name": "Planejamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T13:35:18.315Z",
+      "updatedAt": "2025-09-04T21:10:00.991Z",
+      "risks": []
+    },
+    {
+      "id": "mevg4xm3hn0fjdaj7b",
+      "name": "Planejamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "completed",
+      "createdAt": "2025-08-28T13:35:18.315Z",
+      "updatedAt": "2025-09-04T21:10:06.331Z",
+      "risks": []
+    },
+    {
+      "id": "mevg4xm38h4rj1mj2v9",
+      "name": "Planejamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T13:35:18.315Z",
+      "updatedAt": "2025-09-04T21:10:14.108Z",
+      "risks": []
+    },
+    {
+      "id": "mevmrkp094tpbbm8sa9",
+      "name": "Operacional de Receita",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "high",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T16:40:52.357Z",
+      "updatedAt": "2025-09-03T19:15:24.393Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Reconhecimento: Receitas registradas antes do cumprimento das obrigações de performance ou transferência de controle (CPC 47/IFRS 15)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Antecipação ou postergação de receitas entre períodos, especialmente próximo ao fechamento do exercício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Vendas fictícias registradas para inflar faturamento, incluindo operações com partes relacionadas ou clientes inexistentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Preço de Transferência: Operações com partes relacionadas registradas por valores diferentes dos praticados com terceiros independentes."
+        }
+      ]
+    },
+    {
+      "id": "mevmvzp1w14uawtchne",
+      "name": "Operacional de Custos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "urgent",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T16:44:18.421Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Apropriação: Custos diretos e indiretos alocados inadequadamente aos produtos ou períodos incorretos (mão de obra, matéria-prima, overhead)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margem bruta e operacional."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Método de Custeio: Aplicação inadequada do sistema de custos (absorção, variável) ou mudança de critério sem justificativa técnica."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Inventário Físico: Diferenças entre estoque físico e contábil impactando diretamente o CMV e resultado do período."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Perdas/Obsolescência: Produtos deteriorados, vencidos ou obsoletos não baixados adequadamente dos estoques."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Integração: Falta de integração entre sistemas de produção, estoque e contabilidade gerando divergências nos custos."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:14:15.175Z"
+    },
+    {
+      "id": "mevmvzp1bdrtwn0w4fu",
+      "name": "Operacional de Custos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "urgent",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T16:44:18.421Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Apropriação: Custos diretos e indiretos alocados inadequadamente aos produtos ou períodos incorretos (mão de obra, matéria-prima, overhead)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margem bruta e operacional."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Método de Custeio: Aplicação inadequada do sistema de custos (absorção, variável) ou mudança de critério sem justificativa técnica."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Inventário Físico: Diferenças entre estoque físico e contábil impactando diretamente o CMV e resultado do período."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Perdas/Obsolescência: Produtos deteriorados, vencidos ou obsoletos não baixados adequadamente dos estoques."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Integração: Falta de integração entre sistemas de produção, estoque e contabilidade gerando divergências nos custos."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:15:32.789Z"
+    },
+    {
+      "id": "mevmvzp1qeuhabc85f",
+      "name": "Operacional de Custos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "urgent",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T16:44:18.421Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Apropriação: Custos diretos e indiretos alocados inadequadamente aos produtos ou períodos incorretos (mão de obra, matéria-prima, overhead)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margem bruta e operacional."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Método de Custeio: Aplicação inadequada do sistema de custos (absorção, variável) ou mudança de critério sem justificativa técnica."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Inventário Físico: Diferenças entre estoque físico e contábil impactando diretamente o CMV e resultado do período."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Perdas/Obsolescência: Produtos deteriorados, vencidos ou obsoletos não baixados adequadamente dos estoques."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Integração: Falta de integração entre sistemas de produção, estoque e contabilidade gerando divergências nos custos."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:16:30.958Z"
+    },
+    {
+      "id": "mevpgxdqfsepmoh5nlo",
+      "name": "Clientes",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T17:56:34.430Z",
+      "updatedAt": "2025-08-29T16:29:10.602Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação (PECLD): Subestimação da Provisão para Créditos de Liquidação Duvidosa, particularmente em cenários econômicos adversos ou deterioração do perfil dos clientes."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Completude: Omissão de baixas por inadimplência ou acordo, mantendo artificialmente saldos irrecuperáveis no ativo."
+        }
+      ]
+    },
+    {
+      "id": "mevpi83dfeq2pkpukz4",
+      "name": "Empréstimos e Financiamentos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T17:57:34.969Z"
+    },
+    {
+      "id": "mevpj96ejsb0b7bln9",
+      "name": "Fiscal",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 44,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Diemerson",
+      "status": "pending",
+      "createdAt": "2025-08-28T17:58:23.031Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação: Cálculo incorreto de tributos por aplicação de alíquotas inadequadas ou base de cálculo equivocada."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Compensação: Créditos tributários sem direito de compensação ou com prazo prescrito registrados inadequadamente no ativo."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Recuperabilidade: Créditos de ICMS, PIS/COFINS ou IR/CSLL sem perspectiva real de utilização ou recuperação."
+        }
+      ],
+      "updatedAt": "2025-08-29T16:33:53.659Z"
+    },
+    {
+      "id": "mevplx9bj1xqj7rofz",
+      "name": "Operacional Folha de Pagamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 60,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "createdAt": "2025-08-28T18:00:27.551Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Cálculo: Erros na apuração de salários, horas extras, adicionais ou descontos por falhas na parametrização do sistema."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Completude: Omissão de funcionários ativos, estagiários, terceirizados ou prestadores de serviços com vínculo empregatício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Funcionários"
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Acordos Coletivos: Reajustes, gratificações ou benefícios previstos em convenção não aplicados corretamente."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recolhimentos: INSS, FGTS, IR retido na fonte ou contribuição sindical calculados ou recolhidos incorretamente."
+        }
+      ],
+      "updatedAt": "2025-09-17T01:14:12.828Z"
+    },
+    {
+      "id": "mevpovoir6xqaqhcux",
+      "name": "Fornecedores",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:02:45.474Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Registros de fornecedores fictícios para manipulação de resultados ou criação artificial de passivos."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Adiantamentos a fornecedores registrados no passivo ou valores de longo prazo mantidos no circulante."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Partes Relacionadas: Transações com empresas ligadas registradas como operacionais sem evidenciação adequada da natureza."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Concentração: Dependência excessiva de poucos fornecedores não evidenciada adequadamente em nota explicativa."
+        }
+      ],
+      "updatedAt": "2025-09-04T17:48:55.918Z"
+    },
+    {
+      "id": "mevpq4howhltrtcunbh",
+      "name": "Imobilizado",
+      "description": "Observar ressalva se não retroagir",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 24,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:03:43.548Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Ativos registrados contabilmente mas que não existem fisicamente por alienação, baixa ou furto não registrados."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Depreciação calculada com taxas inadequadas, vida útil incorreta ou valor residual subestimado/superestimado."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recuperabilidade (Impairment): Ativos com valor contábil superior ao valor em uso ou valor líquido de venda não ajustados adequadamente."
+        }
+      ],
+      "updatedAt": "2025-09-11T13:24:51.574Z"
+    },
+    {
+      "id": "mevpr3mamme3ivod3tj",
+      "name": "Outras (Despesas) e Receitas Operacionais Líquidas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 14,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:04:29.074Z",
+      "risks": [],
+      "updatedAt": "2025-09-03T19:12:45.585Z"
+    },
+    {
+      "id": "mevpthlx52mzobanvvk",
+      "name": "Outros Passivos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:06:20.517Z",
+      "risks": [],
+      "updatedAt": "2025-09-03T19:12:57.530Z"
+    },
+    {
+      "id": "mevpu5eiz3t2ovxzxfk",
+      "name": "Parte Relacionada",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-06-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:06:51.354Z",
+      "updatedAt": "2025-08-28T18:08:26.007Z"
+    },
+    {
+      "id": "mevpuy6bxksa5mr8upr",
+      "name": "Patrimônio Líquido",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:07:28.643Z"
+    },
+    {
+      "id": "mevqu5d31arqbktnc7m",
+      "name": "Operacional Folha de Pagamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:34:50.919Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Cálculo: Erros na apuração de salários, horas extras, adicionais ou descontos por falhas na parametrização do sistema."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Completude: Omissão de funcionários ativos, estagiários, terceirizados ou prestadores de serviços com vínculo empregatício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Funcionários"
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Acordos Coletivos: Reajustes, gratificações ou benefícios previstos em convenção não aplicados corretamente."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recolhimentos: INSS, FGTS, IR retido na fonte ou contribuição sindical calculados ou recolhidos incorretamente."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:14:23.985Z"
+    },
+    {
+      "id": "mevqu5d3jsk0eoe9yz",
+      "name": "Operacional Folha de Pagamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:34:50.919Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Cálculo: Erros na apuração de salários, horas extras, adicionais ou descontos por falhas na parametrização do sistema."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Completude: Omissão de funcionários ativos, estagiários, terceirizados ou prestadores de serviços com vínculo empregatício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Funcionários"
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Acordos Coletivos: Reajustes, gratificações ou benefícios previstos em convenção não aplicados corretamente."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recolhimentos: INSS, FGTS, IR retido na fonte ou contribuição sindical calculados ou recolhidos incorretamente."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:15:42.642Z"
+    },
+    {
+      "id": "mevqu5d3rb7q1r4ab",
+      "name": "Operacional Folha de Pagamento",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:34:50.919Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Cálculo: Erros na apuração de salários, horas extras, adicionais ou descontos por falhas na parametrização do sistema."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Completude: Omissão de funcionários ativos, estagiários, terceirizados ou prestadores de serviços com vínculo empregatício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Funcionários"
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Acordos Coletivos: Reajustes, gratificações ou benefícios previstos em convenção não aplicados corretamente."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recolhimentos: INSS, FGTS, IR retido na fonte ou contribuição sindical calculados ou recolhidos incorretamente."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:16:39.085Z"
+    },
+    {
+      "id": "mevr4yebhh4fuhs6luj",
+      "name": "Inventário",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-12-31",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:15.107Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Integridade da Contagem: Itens não contados por localização inadequada, dupla contagem ou omissão de áreas de armazenagem."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Movimentações de entrada/saída durante a contagem não controladas adequadamente, distorcendo o resultado físico."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Identificação: Produtos mal codificados, sem etiquetas ou com descrições inadequadas gerando divergências na apuração."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Unidade de Medida: Conversões incorretas entre unidades (kg/tonelada, metro/metro quadrado) afetando quantidades inventariadas."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Localização: Estoques em trânsito, consignação, terceiros ou filiais não incluídos adequadamente no inventário geral."
+        }
+      ],
+      "updatedAt": "2025-09-04T21:07:28.267Z"
+    },
+    {
+      "id": "mevr4yecvcyl3yohxcl",
+      "name": "Inventário",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-12-31",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:15.108Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Integridade da Contagem: Itens não contados por localização inadequada, dupla contagem ou omissão de áreas de armazenagem."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Movimentações de entrada/saída durante a contagem não controladas adequadamente, distorcendo o resultado físico."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Identificação: Produtos mal codificados, sem etiquetas ou com descrições inadequadas gerando divergências na apuração."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Unidade de Medida: Conversões incorretas entre unidades (kg/tonelada, metro/metro quadrado) afetando quantidades inventariadas."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Localização: Estoques em trânsito, consignação, terceiros ou filiais não incluídos adequadamente no inventário geral."
+        }
+      ],
+      "updatedAt": "2025-09-04T21:07:34.064Z"
+    },
+    {
+      "id": "mevr4yect9djn1kuk4s",
+      "name": "Inventário",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-12-31",
+      "priority": "high",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:15.108Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Integridade da Contagem: Itens não contados por localização inadequada, dupla contagem ou omissão de áreas de armazenagem."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Movimentações de entrada/saída durante a contagem não controladas adequadamente, distorcendo o resultado físico."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Identificação: Produtos mal codificados, sem etiquetas ou com descrições inadequadas gerando divergências na apuração."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Unidade de Medida: Conversões incorretas entre unidades (kg/tonelada, metro/metro quadrado) afetando quantidades inventariadas."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Localização: Estoques em trânsito, consignação, terceiros ou filiais não incluídos adequadamente no inventário geral."
+        }
+      ],
+      "updatedAt": "2025-09-04T21:07:39.865Z"
+    },
+    {
+      "id": "mevr54odx6ce6ou6vz8",
+      "name": "Contingências",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Luiz Gibur",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:23.245Z"
+    },
+    {
+      "id": "mevr54od0grac8jddkri",
+      "name": "Contingências",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Luiz Gibur",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:23.245Z"
+    },
+    {
+      "id": "mevr54odkeikrad04ar",
+      "name": "Contingências",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Luiz Gibur",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:23.245Z"
+    },
+    {
+      "id": "mevr5f0z6fp3ttk9mmj",
+      "name": "Despesas Gerais e Administrativas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 16,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:36.659Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Competência: Despesas registradas em períodos incorretos, afetando o matching com as receitas correspondentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margens operacionais."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:14:35.945Z"
+    },
+    {
+      "id": "mevr5f0z9i3y2jpomxt",
+      "name": "Despesas Gerais e Administrativas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 16,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:36.660Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Competência: Despesas registradas em períodos incorretos, afetando o matching com as receitas correspondentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margens operacionais."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:15:52.217Z"
+    },
+    {
+      "id": "mevr5f10f4ghg8ehoif",
+      "name": "Despesas Gerais e Administrativas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 16,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:36.660Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Competência: Despesas registradas em períodos incorretos, afetando o matching com as receitas correspondentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Custos operacionais registrados como despesas administrativas ou vice-versa, distorcendo margens operacionais."
+        }
+      ],
+      "updatedAt": "2025-09-03T19:16:46.449Z"
+    },
+    {
+      "id": "mevr5qi3ruydg8513op",
+      "name": "Disponibilidades",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:51.531Z",
+      "updatedAt": "2025-08-28T17:55:47.746Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Conversão inadequada de moeda estrangeira ou aplicações financeiras avaliadas por valor incorreto (não marked-to-market quando aplicável)."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Integridade: Omissão de contas bancárias, aplicações financeiras ou numerário existente (caixa, conta movimento)."
+        }
+      ]
+    },
+    {
+      "id": "mevr5qi3qr7bcumicef",
+      "name": "Disponibilidades",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:51.531Z",
+      "updatedAt": "2025-08-28T17:55:47.746Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Conversão inadequada de moeda estrangeira ou aplicações financeiras avaliadas por valor incorreto (não marked-to-market quando aplicável)."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Integridade: Omissão de contas bancárias, aplicações financeiras ou numerário existente (caixa, conta movimento)."
+        }
+      ]
+    },
+    {
+      "id": "mevr5qi3t58c8g9tbv",
+      "name": "Disponibilidades",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:51.531Z",
+      "updatedAt": "2025-08-28T17:55:47.746Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Conversão inadequada de moeda estrangeira ou aplicações financeiras avaliadas por valor incorreto (não marked-to-market quando aplicável)."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Integridade: Omissão de contas bancárias, aplicações financeiras ou numerário existente (caixa, conta movimento)."
+        }
+      ]
+    },
+    {
+      "id": "mevr5wbj8wsmkrdjk7i",
+      "name": "Clientes",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:59.071Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação (PECLD): Subestimação da Provisão para Créditos de Liquidação Duvidosa, particularmente em cenários econômicos adversos ou deterioração do perfil dos clientes."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Completude: Omissão de baixas por inadimplência ou acordo, mantendo artificialmente saldos irrecuperáveis no ativo."
+        }
+      ]
+    },
+    {
+      "id": "mevr5wbjgnvzs2242h",
+      "name": "Clientes",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:59.071Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação (PECLD): Subestimação da Provisão para Créditos de Liquidação Duvidosa, particularmente em cenários econômicos adversos ou deterioração do perfil dos clientes."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Completude: Omissão de baixas por inadimplência ou acordo, mantendo artificialmente saldos irrecuperáveis no ativo."
+        }
+      ]
+    },
+    {
+      "id": "mevr5wbjansd722qcfl",
+      "name": "Clientes",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:43:59.071Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação (PECLD): Subestimação da Provisão para Créditos de Liquidação Duvidosa, particularmente em cenários econômicos adversos ou deterioração do perfil dos clientes."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Completude: Omissão de baixas por inadimplência ou acordo, mantendo artificialmente saldos irrecuperáveis no ativo."
+        }
+      ],
+      "updatedAt": "2025-08-29T16:25:40.318Z"
+    },
+    {
+      "id": "mevr5zx7yrcgvxarrf",
+      "name": "Empréstimos e Financiamentos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 1,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:03.739Z",
+      "updatedAt": "2025-08-28T19:42:48.362Z"
+    },
+    {
+      "id": "mevr5zx75df91xqvqjp",
+      "name": "Empréstimos e Financiamentos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 6,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:03.739Z"
+    },
+    {
+      "id": "mevr5zx79u6un9pzvov",
+      "name": "Empréstimos e Financiamentos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 1,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:03.739Z",
+      "updatedAt": "2025-08-28T20:47:07.721Z"
+    },
+    {
+      "id": "mevr647nffknpjdfn0d",
+      "name": "Fiscal",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 44,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Diemerson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:09.299Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação: Cálculo incorreto de tributos por aplicação de alíquotas inadequadas ou base de cálculo equivocada."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Compensação: Créditos tributários sem direito de compensação ou com prazo prescrito registrados inadequadamente no ativo."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Recuperabilidade: Créditos de ICMS, PIS/COFINS ou IR/CSLL sem perspectiva real de utilização ou recuperação."
+        }
+      ]
+    },
+    {
+      "id": "mevr647ntq2fy0drcm8",
+      "name": "Fiscal",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 44,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Diemerson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:09.299Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação: Cálculo incorreto de tributos por aplicação de alíquotas inadequadas ou base de cálculo equivocada."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Compensação: Créditos tributários sem direito de compensação ou com prazo prescrito registrados inadequadamente no ativo."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Recuperabilidade: Créditos de ICMS, PIS/COFINS ou IR/CSLL sem perspectiva real de utilização ou recuperação."
+        }
+      ]
+    },
+    {
+      "id": "mevr647nwizmxtbfac",
+      "name": "Fiscal",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 44,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Diemerson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:09.299Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Avaliação: Cálculo incorreto de tributos por aplicação de alíquotas inadequadas ou base de cálculo equivocada."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Compensação: Créditos tributários sem direito de compensação ou com prazo prescrito registrados inadequadamente no ativo."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Recuperabilidade: Créditos de ICMS, PIS/COFINS ou IR/CSLL sem perspectiva real de utilização ou recuperação."
+        }
+      ]
+    },
+    {
+      "id": "mevr6ihnsfiy2jigd4",
+      "name": "Outras (Despesas) e Receitas Operacionais Líquidas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 7,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:27.803Z",
+      "updatedAt": "2025-09-03T19:14:46.005Z",
+      "risks": []
+    },
+    {
+      "id": "mevr6ihnu96p3z67l8b",
+      "name": "Outras (Despesas) e Receitas Operacionais Líquidas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 7,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:27.803Z",
+      "updatedAt": "2025-09-03T19:16:02.365Z",
+      "risks": []
+    },
+    {
+      "id": "mevr6ihnyv5l2uylun7",
+      "name": "Outras (Despesas) e Receitas Operacionais Líquidas",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 7,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:27.803Z",
+      "updatedAt": "2025-09-03T19:16:54.409Z",
+      "risks": []
+    },
+    {
+      "id": "mevr6nowljbjnj0ti6",
+      "name": "Outros Passivos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:34.544Z",
+      "risks": [],
+      "updatedAt": "2025-09-03T19:14:54.829Z"
+    },
+    {
+      "id": "mevr6nowelvew1izkt",
+      "name": "Outros Passivos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:34.544Z",
+      "risks": [],
+      "updatedAt": "2025-09-03T19:16:10.187Z"
+    },
+    {
+      "id": "mevr6nowewsmkc9w09",
+      "name": "Outros Passivos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:34.544Z",
+      "risks": [],
+      "updatedAt": "2025-09-03T19:17:00.402Z"
+    },
+    {
+      "id": "mevr6rgzksl8rbnrwb",
+      "name": "Patrimônio Líquido",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:39.443Z"
+    },
+    {
+      "id": "mevr6rgz6j4s2h1zzt3",
+      "name": "Patrimônio Líquido",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:39.443Z"
+    },
+    {
+      "id": "mevr6rgz7dgsjpo4adj",
+      "name": "Patrimônio Líquido",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-08-28T18:44:39.443Z"
+    },
+    {
+      "id": "mevtghzfe2fstfjsqf",
+      "name": "Parte Relacionada",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-06-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T19:48:12.939Z",
+      "updatedAt": "2025-08-28T18:08:26.007Z"
+    },
+    {
+      "id": "mevtghzf7ulwpc44nen",
+      "name": "Parte Relacionada",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-06-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T19:48:12.939Z",
+      "updatedAt": "2025-08-28T20:06:18.239Z"
+    },
+    {
+      "id": "mevtghzf434r4mq0yjt",
+      "name": "Parte Relacionada",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 2,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-06-19",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "pending",
+      "createdAt": "2025-08-28T19:48:12.939Z",
+      "updatedAt": "2025-08-28T18:08:26.007Z"
+    },
+    {
+      "id": "mevwh4blgikyninkkq4",
+      "name": "Circularização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2025-12-15",
+      "priority": "urgent",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T21:12:40.740Z",
+      "updatedAt": "2025-09-12T14:59:51.700Z",
+      "risks": []
+    },
+    {
+      "id": "mevwhn642junlodz9ru",
+      "name": "Circularização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2025-12-15",
+      "priority": "urgent",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T21:13:05.164Z",
+      "updatedAt": "2025-09-04T21:11:59.980Z",
+      "risks": []
+    },
+    {
+      "id": "mevwhn64bz2gjlapbll",
+      "name": "Circularização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2025-12-15",
+      "priority": "urgent",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T21:13:05.164Z",
+      "updatedAt": "2025-09-04T21:12:07.499Z",
+      "risks": []
+    },
+    {
+      "id": "mevwhn64f9ldshbm20j",
+      "name": "Circularização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2025-12-15",
+      "priority": "urgent",
+      "assignee": "Equipe",
+      "status": "pending",
+      "createdAt": "2025-08-28T21:13:05.164Z",
+      "updatedAt": "2025-09-04T21:12:23.475Z",
+      "risks": []
+    },
+    {
+      "id": "mf1ep848708k8gmpm6b",
+      "name": "Geral",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Equipe",
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-01T17:41:42.872Z",
+      "updatedAt": "2025-09-04T21:10:19.652Z"
+    },
+    {
+      "id": "mf1eq46d7so0r5mlqrc",
+      "name": "Conversão Balancete",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T17:42:24.421Z",
+      "updatedAt": "2025-09-01T17:42:49.715Z"
+    },
+    {
+      "id": "mf1ert8rbvri50t9tmf",
+      "name": "Conversão Razão",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T17:43:43.563Z",
+      "updatedAt": "2025-09-01T17:44:00.690Z"
+    },
+    {
+      "id": "mf1etasr8gnfe2qcnhu",
+      "name": "Calculo Materialidade",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevelmiobbx2gso7nwd",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T17:44:52.971Z",
+      "updatedAt": "2025-09-01T17:45:11.365Z"
+    },
+    {
+      "id": "mf1euhkglr391zj49g",
+      "name": "Revisão Analítica",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevelmiobbx2gso7nwd",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T17:45:48.401Z",
+      "updatedAt": "2025-09-01T17:45:57.884Z"
+    },
+    {
+      "id": "mf1ibh1on6ib3qg26p",
+      "name": "Calculo Materialidade",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevg4xm3sob3mxndo09",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:23:23.459Z"
+    },
+    {
+      "id": "mf1ibh1ou9qvcmna7t",
+      "name": "Revisão Analítica",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevg4xm3sob3mxndo09",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:24:51.062Z"
+    },
+    {
+      "id": "mf1ibh1ouuulhqrink",
+      "name": "Calculo Materialidade",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevg4xm3hn0fjdaj7b",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:25:42.124Z"
+    },
+    {
+      "id": "mf1ibh1omb2ved4ik3q",
+      "name": "Revisão Analítica",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevg4xm3hn0fjdaj7b",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:26:11.886Z"
+    },
+    {
+      "id": "mf1ibh1of4jxmj4kgh",
+      "name": "Calculo Materialidade",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevg4xm38h4rj1mj2v9",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:24:02.724Z"
+    },
+    {
+      "id": "mf1ibh1o4zgzb0w90l6",
+      "name": "Revisão Analítica",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevg4xm38h4rj1mj2v9",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-08-29",
+      "priority": "high",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:22:59.724Z",
+      "updatedAt": "2025-09-01T19:26:28.962Z"
+    },
+    {
+      "id": "mf1igpl6vkpqasinm9c",
+      "name": "Geral",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Equipe",
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:04.074Z",
+      "updatedAt": "2025-09-04T21:10:25.194Z"
+    },
+    {
+      "id": "mf1igpl6aa0orxoidbc",
+      "name": "Geral",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Equipe",
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:04.074Z",
+      "updatedAt": "2025-09-04T21:10:30.499Z"
+    },
+    {
+      "id": "mf1igpl6wj0fyoql4nd",
+      "name": "Geral",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Equipe",
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:04.074Z",
+      "updatedAt": "2025-09-04T21:10:35.645Z"
+    },
+    {
+      "id": "mf1igvmiefyn783w2xn",
+      "name": "Conversão Balancete",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mf1igpl6vkpqasinm9c",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-01T19:27:31.534Z"
+    },
+    {
+      "id": "mf1igvmilqvqs5chjfj",
+      "name": "Conversão Razão",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mf1igpl6vkpqasinm9c",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-10T14:56:04.020Z"
+    },
+    {
+      "id": "mf1igvmifzlt38ld9bl",
+      "name": "Conversão Balancete",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mf1igpl6aa0orxoidbc",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-01T19:27:47.018Z"
+    },
+    {
+      "id": "mf1igvmijwtc2h2fv3",
+      "name": "Conversão Razão",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mf1igpl6aa0orxoidbc",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-10T14:58:13.776Z"
+    },
+    {
+      "id": "mf1igvmiqp0vlw5zdse",
+      "name": "Conversão Balancete",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mf1igpl6wj0fyoql4nd",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-01T19:28:06.608Z"
+    },
+    {
+      "id": "mf1igvmibarcuihmi59",
+      "name": "Conversão Razão",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mf1igpl6wj0fyoql4nd",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-01T19:27:11.898Z",
+      "updatedAt": "2025-09-01T19:28:19.691Z"
+    },
+    {
+      "id": "mf4dwy858eg5e79k6cj",
+      "name": "Follow up",
+      "description": "Revisar os pontos de 2024",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 3,
+      "dueDate": "2025-09-26",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-03T19:43:02.214Z",
+      "updatedAt": "2025-09-15T18:05:45.312Z"
+    },
+    {
+      "id": "mf5bghpsi0ifzea3xq",
+      "name": "Follow up",
+      "description": "Revisar os pontos de 2024",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-26",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-04T11:22:01.264Z",
+      "updatedAt": "2025-09-15T18:05:54.648Z"
+    },
+    {
+      "id": "mf5bghps9xli590jcmg",
+      "name": "Follow up",
+      "description": "Revisar os pontos de 2024",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-26",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-04T11:22:01.264Z",
+      "updatedAt": "2025-09-15T18:06:04.163Z"
+    },
+    {
+      "id": "mf5bghpshhvlutzksk",
+      "name": "Follow up",
+      "description": "Revisar os pontos de 2024",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-26",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-04T11:22:01.264Z",
+      "updatedAt": "2025-09-15T18:06:13.346Z"
+    },
+    {
+      "id": "mf5p85bxgw6pnrhuzjc",
+      "name": "Estoques",
+      "description": "Teste Substantivo",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:47:26.589Z",
+      "updatedAt": "2025-09-04T17:47:21.314Z",
+      "risks": []
+    },
+    {
+      "id": "mf5p85bxcyace77b5a",
+      "name": "Estoques",
+      "description": "Teste Substantivo",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:47:26.589Z",
+      "updatedAt": "2025-09-04T17:47:21.314Z",
+      "risks": []
+    },
+    {
+      "id": "mf5p85bxqg8nu3g8p5",
+      "name": "Estoques",
+      "description": "Teste Substantivo",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 4,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-10",
+      "priority": "medium",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:47:26.589Z",
+      "updatedAt": "2025-09-04T17:47:21.314Z",
+      "risks": []
+    },
+    {
+      "id": "mf5pab4m1mvbu3z2k2p",
+      "name": "Fornecedores",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:49:07.414Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Registros de fornecedores fictícios para manipulação de resultados ou criação artificial de passivos."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Adiantamentos a fornecedores registrados no passivo ou valores de longo prazo mantidos no circulante."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Partes Relacionadas: Transações com empresas ligadas registradas como operacionais sem evidenciação adequada da natureza."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Concentração: Dependência excessiva de poucos fornecedores não evidenciada adequadamente em nota explicativa."
+        }
+      ],
+      "updatedAt": "2025-09-04T17:48:55.918Z"
+    },
+    {
+      "id": "mf5pab4mqhhijprwdy",
+      "name": "Fornecedores",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:49:07.414Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Registros de fornecedores fictícios para manipulação de resultados ou criação artificial de passivos."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Adiantamentos a fornecedores registrados no passivo ou valores de longo prazo mantidos no circulante."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Partes Relacionadas: Transações com empresas ligadas registradas como operacionais sem evidenciação adequada da natureza."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Concentração: Dependência excessiva de poucos fornecedores não evidenciada adequadamente em nota explicativa."
+        }
+      ],
+      "updatedAt": "2025-09-04T17:48:55.918Z"
+    },
+    {
+      "id": "mf5pab4mrefkl62oik",
+      "name": "Fornecedores",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "low",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-09-04T17:49:07.414Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Registros de fornecedores fictícios para manipulação de resultados ou criação artificial de passivos."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Classificação: Adiantamentos a fornecedores registrados no passivo ou valores de longo prazo mantidos no circulante."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Partes Relacionadas: Transações com empresas ligadas registradas como operacionais sem evidenciação adequada da natureza."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Concentração: Dependência excessiva de poucos fornecedores não evidenciada adequadamente em nota explicativa."
+        }
+      ],
+      "updatedAt": "2025-09-04T17:48:55.918Z"
+    },
+    {
+      "id": "mf5phgc87x9imu5wbnd",
+      "name": "Reunião dia 02/09/2025",
+      "description": "Reunião com Erich, Milton e Solange, para conversarmos sobre os trabalhos a serem realizados.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevelmiobbx2gso7nwd",
+      "estimatedHours": 2,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-02",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-04T17:54:40.760Z",
+      "updatedAt": "2025-09-12T16:01:27.861Z"
+    },
+    {
+      "id": "mf75suevj783eti3ozl",
+      "name": "Imobilizado",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 24,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-05T18:19:12.247Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Ativos registrados contabilmente mas que não existem fisicamente por alienação, baixa ou furto não registrados."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Depreciação calculada com taxas inadequadas, vida útil incorreta ou valor residual subestimado/superestimado."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recuperabilidade (Impairment): Ativos com valor contábil superior ao valor em uso ou valor líquido de venda não ajustados adequadamente."
+        }
+      ],
+      "updatedAt": "2025-09-05T18:18:55.279Z"
+    },
+    {
+      "id": "mf75suev346md2ghti2",
+      "name": "Imobilizado",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": null,
+      "estimatedHours": 24,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-05T18:19:12.247Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Ativos registrados contabilmente mas que não existem fisicamente por alienação, baixa ou furto não registrados."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Depreciação calculada com taxas inadequadas, vida útil incorreta ou valor residual subestimado/superestimado."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recuperabilidade (Impairment): Ativos com valor contábil superior ao valor em uso ou valor líquido de venda não ajustados adequadamente."
+        }
+      ],
+      "updatedAt": "2025-09-05T18:18:55.279Z"
+    },
+    {
+      "id": "mf75suevidugv0kv4g",
+      "name": "Imobilizado",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 24,
+      "phase": "final",
+      "actualHours": 0,
+      "dueDate": "2026-04-19",
+      "priority": "high",
+      "assignee": "Alexandre",
+      "status": "pending",
+      "createdAt": "2025-09-05T18:19:12.247Z",
+      "risks": [
+        {
+          "level": "medium",
+          "description": "Risco de Existência: Ativos registrados contabilmente mas que não existem fisicamente por alienação, baixa ou furto não registrados."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Avaliação: Depreciação calculada com taxas inadequadas, vida útil incorreta ou valor residual subestimado/superestimado."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Recuperabilidade (Impairment): Ativos com valor contábil superior ao valor em uso ou valor líquido de venda não ajustados adequadamente."
+        }
+      ],
+      "updatedAt": "2025-09-05T18:18:55.279Z"
+    },
+    {
+      "id": "mf8mbdgob72kaku49wi",
+      "name": "FSA",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-06T18:49:16.776Z",
+      "updatedAt": "2025-09-10T14:54:33.918Z"
+    },
+    {
+      "id": "mf8mcq29dk2g63vpsh",
+      "name": "Importação",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-06T18:50:19.761Z",
+      "updatedAt": "2025-09-10T14:54:45.703Z"
+    },
+    {
+      "id": "mf8mdg0gjk5874fqui",
+      "name": "Cédulas Mestras",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-06T18:50:53.392Z",
+      "updatedAt": "2025-09-10T14:55:06.139Z"
+    },
+    {
+      "id": "mfck72q4fr4tsstu8b8",
+      "name": "Operacional de Receita",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "high",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-09-09T13:01:01.708Z",
+      "updatedAt": "2025-09-03T19:16:22.546Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Reconhecimento: Receitas registradas antes do cumprimento das obrigações de performance ou transferência de controle (CPC 47/IFRS 15)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Antecipação ou postergação de receitas entre períodos, especialmente próximo ao fechamento do exercício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Vendas fictícias registradas para inflar faturamento, incluindo operações com partes relacionadas ou clientes inexistentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Preço de Transferência: Operações com partes relacionadas registradas por valores diferentes dos praticados com terceiros independentes."
+        }
+      ]
+    },
+    {
+      "id": "mfck87c4q3f29h6c2k",
+      "name": "Operacional de Receita",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 40,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "high",
+      "assignee": "Amanda",
+      "status": "pending",
+      "createdAt": "2025-09-09T13:01:54.340Z",
+      "updatedAt": "2025-09-03T19:16:22.546Z",
+      "risks": [
+        {
+          "level": "high",
+          "description": "Risco de Reconhecimento: Receitas registradas antes do cumprimento das obrigações de performance ou transferência de controle (CPC 47/IFRS 15)."
+        },
+        {
+          "level": "high",
+          "description": "Risco de Corte (Cut-off): Antecipação ou postergação de receitas entre períodos, especialmente próximo ao fechamento do exercício."
+        },
+        {
+          "level": "low",
+          "description": "Risco de Existência: Vendas fictícias registradas para inflar faturamento, incluindo operações com partes relacionadas ou clientes inexistentes."
+        },
+        {
+          "level": "medium",
+          "description": "Risco de Preço de Transferência: Operações com partes relacionadas registradas por valores diferentes dos praticados com terceiros independentes."
+        }
+      ]
+    },
+    {
+      "id": "mfcnl9q8ikgfd1e5bm",
+      "name": "Importação",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mf1igpl6vkpqasinm9c",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:36:02.816Z",
+      "updatedAt": "2025-09-10T14:55:51.376Z"
+    },
+    {
+      "id": "mfcnlkdfcgh9u1nz80l",
+      "name": "Cédulas Mestras",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mf1igpl6vkpqasinm9c",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:36:16.611Z",
+      "updatedAt": "2025-09-10T14:55:43.391Z"
+    },
+    {
+      "id": "mfcnlr8nh7a1qxo69b6",
+      "name": "FSA",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mf1igpl6vkpqasinm9c",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:36:25.511Z",
+      "updatedAt": "2025-09-10T14:55:34.709Z"
+    },
+    {
+      "id": "mfco13bkyis0kma4ppi",
+      "name": "Importação",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mf1igpl6aa0orxoidbc",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-10",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:21.008Z",
+      "updatedAt": "2025-09-10T15:11:12.220Z"
+    },
+    {
+      "id": "mfco13bkuuixcpgl2ii",
+      "name": "Importação",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mf1igpl6wj0fyoql4nd",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:21.008Z",
+      "updatedAt": "2025-09-10T14:59:57.356Z"
+    },
+    {
+      "id": "mfco1e3g0dpf2hx8zvqt",
+      "name": "FSA",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mf1igpl6aa0orxoidbc",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-10",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:34.972Z",
+      "updatedAt": "2025-09-10T15:11:27.079Z"
+    },
+    {
+      "id": "mfco1e3gruicf6ho63",
+      "name": "FSA",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mf1igpl6wj0fyoql4nd",
+      "estimatedHours": 0.25,
+      "phase": "preliminar",
+      "actualHours": 0.25,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:34.972Z",
+      "updatedAt": "2025-09-10T15:00:33.231Z"
+    },
+    {
+      "id": "mfco1qxjttlfx1z81s",
+      "name": "Cédulas Mestras",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mf1igpl6aa0orxoidbc",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-10",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:51.607Z",
+      "updatedAt": "2025-09-10T15:11:35.214Z"
+    },
+    {
+      "id": "mfco1qxj4w96ob59bni",
+      "name": "Cédulas Mestras",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mf1igpl6wj0fyoql4nd",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-09",
+      "priority": "low",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T14:48:51.607Z",
+      "updatedAt": "2025-09-10T15:01:48.785Z"
+    },
+    {
+      "id": "mfcyag1ydrfj3r27r36",
+      "name": "Reunião dia 09/09/2025",
+      "description": "Reunião com Milton e Solange, para conversarmos sobre as principais movimentações contábeis.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevelmiobbx2gso7nwd",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-09",
+      "priority": "high",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-09T19:35:33.576Z",
+      "updatedAt": "2025-09-12T15:57:51.708Z"
+    },
+    {
+      "id": "mfe41nz4rk53rsjx9pa",
+      "name": "Reunião Custos",
+      "description": "Reunião com o Ricardo, para entendimento de como é o processo de apuração do custo.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 1.75,
+      "phase": "preliminar",
+      "actualHours": 1.75,
+      "dueDate": "2025-09-10",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Amanda"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-10T15:04:27.808Z",
+      "updatedAt": "2025-09-15T18:50:51.448Z"
+    },
+    {
+      "id": "mfefqtvano1vd1nxr1",
+      "name": "Reunião com a Ângela",
+      "description": "Reunião para entendimento do processo da portaria.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 1.5,
+      "phase": "preliminar",
+      "actualHours": 1.5,
+      "dueDate": "2025-09-10",
+      "priority": "low",
+      "assignee": [
+        "Amanda",
+        "Anderson",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-10T20:31:57.622Z",
+      "updatedAt": "2025-09-15T18:47:31.084Z"
+    },
+    {
+      "id": "mffjxk43cyk1axwwob9",
+      "name": "Reunião Equipe - Paulo Cirilo",
+      "description": "Reunião com o Paulo e Gibur, referente aos riscos a serem considerados nas análises de Custos, Receitas, Partes Relacionadas dentre outros.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevelmiobbx2gso7nwd",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre",
+        "Paulo",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T15:16:56.211Z",
+      "updatedAt": "2025-09-15T21:19:39.380Z"
+    },
+    {
+      "id": "mffjydcq86eedh4w9hd",
+      "name": "Reunião Equipe - Paulo Cirilo",
+      "description": "Reunião com o Paulo e Gibur, referente aos riscos a serem considerados nas análises de Custos, Receitas, Partes Relacionadas dentre outros.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevg4xm3sob3mxndo09",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre",
+        "Paulo",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T15:17:34.106Z",
+      "updatedAt": "2025-09-15T21:20:10.407Z"
+    },
+    {
+      "id": "mffjydcq5kpgtx1mfi6",
+      "name": "Reunião Equipe - Paulo Cirilo",
+      "description": "Reunião com o Paulo e Gibur, referente aos riscos a serem considerados nas análises de Custos, Receitas, Partes Relacionadas dentre outros.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevg4xm3hn0fjdaj7b",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre",
+        "Paulo",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T15:17:34.106Z",
+      "updatedAt": "2025-09-15T21:20:19.351Z"
+    },
+    {
+      "id": "mffjydcqcb34j3fzh3",
+      "name": "Reunião Equipe - Paulo Cirilo",
+      "description": "Reunião com o Paulo e Gibur, referente aos riscos a serem considerados nas análises de Custos, Receitas, Partes Relacionadas dentre outros.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevg4xm38h4rj1mj2v9",
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre",
+        "Paulo",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T15:17:34.106Z",
+      "updatedAt": "2025-09-15T21:20:28.479Z"
+    },
+    {
+      "id": "mffoyabelxoa2no2zre",
+      "name": "Vouchers",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevr5f0z6fp3ttk9mmj",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T17:37:28.250Z",
+      "updatedAt": "2025-09-11T17:37:48.009Z"
+    },
+    {
+      "id": "mffoz03b7te1b8wjx8w",
+      "name": "Vouchers",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevd35e6ijnbkscrl5q",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-10",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T17:38:01.655Z",
+      "updatedAt": "2025-09-11T17:43:43.013Z"
+    },
+    {
+      "id": "mffoz03cjcr3aj2fs1",
+      "name": "Vouchers",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevr5f0z9i3y2jpomxt",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-12",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T17:38:01.656Z",
+      "updatedAt": "2025-09-12T16:03:46.601Z"
+    },
+    {
+      "id": "mffoz03c0x3t4wb3ozxq",
+      "name": "Vouchers",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevr5f10f4ghg8ehoif",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-11",
+      "priority": "medium",
+      "assignee": "Anderson",
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T17:38:01.656Z",
+      "updatedAt": "2025-09-11T17:57:46.334Z"
+    },
+    {
+      "id": "mffqu8m2n9m2zvdcsyg",
+      "name": "Reunião Logística ",
+      "description": "Reunião com o Vinicius, líder da logística 02, que cuida apenas da logística dos produtos vendidos.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 1.75,
+      "phase": "preliminar",
+      "actualHours": 1.75,
+      "dueDate": "2025-09-11",
+      "priority": "high",
+      "assignee": [
+        "Amanda"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-11T18:30:18.650Z",
+      "updatedAt": "2025-09-15T18:48:27.686Z"
+    },
+    {
+      "id": "mfh0v850q3s278j3r4b",
+      "name": "Reunião dia 02/09/2025",
+      "description": "Reunião com Erich, Milton e Solange, para conversarmos sobre os trabalhos a serem realizados.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevg4xm3sob3mxndo09",
+      "estimatedHours": 2,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-02",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:58:47.028Z",
+      "updatedAt": "2025-09-12T16:01:41.996Z"
+    },
+    {
+      "id": "mfh0v850dwgfe7czms8",
+      "name": "Reunião dia 02/09/2025",
+      "description": "Reunião com Erich, Milton e Solange, para conversarmos sobre os trabalhos a serem realizados.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevg4xm3hn0fjdaj7b",
+      "estimatedHours": 2,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-02",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:58:47.028Z",
+      "updatedAt": "2025-09-12T16:01:57.753Z"
+    },
+    {
+      "id": "mfh0v850hik88oyjgwe",
+      "name": "Reunião dia 02/09/2025",
+      "description": "Reunião com Erich, Milton e Solange, para conversarmos sobre os trabalhos a serem realizados.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevg4xm38h4rj1mj2v9",
+      "estimatedHours": 2,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-02",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:58:47.028Z",
+      "updatedAt": "2025-09-12T16:01:14.301Z"
+    },
+    {
+      "id": "mfh0vis7ytk1cb40g5",
+      "name": "Reunião dia 09/09/2025",
+      "description": "Reunião com Milton e Solange, para conversarmos sobre as principais movimentações contábeis.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevg4xm3sob3mxndo09",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-09",
+      "priority": "high",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:59:00.823Z",
+      "updatedAt": "2025-09-12T15:59:44.864Z"
+    },
+    {
+      "id": "mfh0vis7blrqmxn456g",
+      "name": "Reunião dia 09/09/2025",
+      "description": "Reunião com Milton e Solange, para conversarmos sobre as principais movimentações contábeis.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevg4xm3hn0fjdaj7b",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-09",
+      "priority": "high",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:59:00.823Z",
+      "updatedAt": "2025-09-12T16:00:17.871Z"
+    },
+    {
+      "id": "mfh0vis7f2pbugtg0ad",
+      "name": "Reunião dia 09/09/2025",
+      "description": "Reunião com Milton e Solange, para conversarmos sobre as principais movimentações contábeis.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevg4xm38h4rj1mj2v9",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-09",
+      "priority": "high",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T15:59:00.823Z",
+      "updatedAt": "2025-09-12T16:00:53.821Z"
+    },
+    {
+      "id": "mfh7ltf3gkur3jk07yp",
+      "name": "Reunião Matéria Prima",
+      "description": "Reunião com o Alex, responsável pelo estoque de matéria prima na Industria.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 1,
+      "dueDate": "2025-09-12",
+      "priority": "urgent",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-12T19:07:25.359Z",
+      "updatedAt": "2025-09-12T19:07:44.785Z"
+    },
+    {
+      "id": "mflgtldbyefzyr5xo3a",
+      "name": "Reunião PCP",
+      "description": "Reunião com o Alexandre e Rodrigo do PCP e Valdenilson gerente da fábrica.\n\nEssa reunião está sendo anotada dentro das horas de custos, mas ela foi utilizada para parte do entendimento do operacional de receita.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 3,
+      "phase": "preliminar",
+      "actualHours": 3,
+      "dueDate": "2025-09-11",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Amanda"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-15T18:36:29.423Z",
+      "updatedAt": "2025-09-15T18:51:28.891Z"
+    },
+    {
+      "id": "mflgx9ubenld27fxkhg",
+      "name": "Reunião Comercial",
+      "description": "Reunião com o Damião, ela foi iniciada no dia 12/09, mas não foi concluída",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-12",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-15T18:39:21.107Z",
+      "updatedAt": "2025-09-16T14:59:18.467Z"
+    },
+    {
+      "id": "mflh6n3xeufogrns3f4",
+      "name": "Reunião Faturamento",
+      "description": "Reunião com o Gabriel, ele é o responsável pelo faturamento da Industria, na ausência dele a Tais realiza a atividade.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 2.25,
+      "phase": "preliminar",
+      "actualHours": 2.25,
+      "dueDate": "2025-09-12",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-15T18:46:38.206Z",
+      "updatedAt": "2025-09-16T14:58:40.459Z"
+    },
+    {
+      "id": "mflmetnmhet4haeurew",
+      "name": "Reunião Custos Moore",
+      "description": "Reunião geral com os diretores da Moore, para traçar uma estratégia de como validar os custos.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 6,
+      "phase": "preliminar",
+      "actualHours": 6,
+      "dueDate": "2025-09-15",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Paulo",
+        "Diemerson",
+        "Adriana",
+        "Luiz Gibur"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-15T21:12:58.018Z",
+      "updatedAt": "2025-09-15T21:20:45.640Z"
+    },
+    {
+      "id": "mfmmxtwuq58u37hhdki",
+      "name": "Reunião Financeiro",
+      "description": "Reunião com a Eloise Coordenadora financeira e Daianne responsável pelo contas a receber e liberação de crédito.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 4,
+      "dueDate": "2025-09-16",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson",
+        "Diemerson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-16T14:15:30.991Z",
+      "updatedAt": "2025-09-16T14:15:46.465Z"
+    },
+    {
+      "id": "mfmoguul1pzxut8jj5d",
+      "name": "Reunião Comercial",
+      "description": "Segunda parte da Reunião com o Damião",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcml9ictlmtuwoqzh",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 4,
+      "dueDate": "2025-09-16",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson",
+        "Diemerson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-16T14:58:18.285Z",
+      "updatedAt": "2025-09-16T15:20:50.023Z"
+    },
+    {
+      "id": "mfmokjdhed8btf9urb7",
+      "name": "Reunião Faturamento",
+      "description": "Reunião com a Tais, ela está alocada na Procópio Industria, mas realiza as atividades de lançar notas d entrada da Alçabras, romaneio, frete, pedido de venda e faturamento da Alçabras Rio.",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mfck87c4q3f29h6c2k",
+      "estimatedHours": 1.5,
+      "phase": "preliminar",
+      "actualHours": 1.5,
+      "dueDate": "2025-09-12",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-16T15:01:10.037Z",
+      "updatedAt": "2025-09-16T15:01:51.689Z"
+    },
+    {
+      "id": "mfn15872vmxhbc3szlc",
+      "name": "Visita Fábrica",
+      "description": "Visita operacional",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 6,
+      "phase": "preliminar",
+      "actualHours": 6,
+      "dueDate": "2025-09-16",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Amanda",
+        "Diemerson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-16T20:53:10.719Z",
+      "updatedAt": "2025-09-16T20:53:27.234Z"
+    },
+    {
+      "id": "mfnahrloa2g1bpssuz",
+      "name": "Análise Contabilização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevplx9bj1xqj7rofz",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T01:14:52.284Z",
+      "updatedAt": "2025-09-17T01:15:57.998Z"
+    },
+    {
+      "id": "mfnaiqi0ndlcybnp6x",
+      "name": "Recálculo INSS, FGTS e IR",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevplx9bj1xqj7rofz",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T01:15:37.512Z",
+      "updatedAt": "2025-09-17T01:16:32.015Z"
+    },
+    {
+      "id": "mfog1x2p3sczmjdxlt8",
+      "name": "Reunião Moore Custos",
+      "description": "Reunião para explicação sobre as atualizações de entendimento do processo de custeio",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevcyjmbpv1ke2hfw2",
+      "estimatedHours": 3,
+      "phase": "preliminar",
+      "actualHours": 3,
+      "dueDate": "2025-09-17",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Adriana",
+        "Paulo"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T20:38:16.753Z",
+      "updatedAt": "2025-09-17T20:38:27.448Z"
+    },
+    {
+      "id": "mfogh50t78vqz95vu6s",
+      "name": "Visita Alçabras",
+      "description": "Visita para entender o ciclo operacional da Alçabras Araucária e Embalagens Araucária",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevmvzp1qeuhabc85f",
+      "estimatedHours": 3,
+      "phase": "preliminar",
+      "actualHours": 3,
+      "dueDate": "2025-09-17",
+      "priority": "urgent",
+      "assignee": [
+        "Alexandre",
+        "Anderson",
+        "Amanda"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T20:50:06.893Z",
+      "updatedAt": "2025-09-17T20:50:22.078Z"
+    },
+    {
+      "id": "mfogm1ekg1e0gh4znfr",
+      "name": "Visita Araucária",
+      "description": "Visita para entendimento da parte comercial da Alçabras Araucária e Embalagens Araucária",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mfck87c4q3f29h6c2k",
+      "estimatedHours": 3,
+      "phase": "preliminar",
+      "actualHours": 3,
+      "dueDate": "2025-09-17",
+      "priority": "high",
+      "assignee": [
+        "Amanda",
+        "Alexandre",
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T20:53:55.484Z",
+      "updatedAt": "2025-09-17T20:54:17.594Z"
+    },
+    {
+      "id": "mfohfjddw7bxr8d6ttn",
+      "name": "Visita Alçabras",
+      "description": "Visita para entendimento de como funciona o caixinha e os procedimentos financeiro na Alçabras Araucária, Alçabras Ceasa e Embalagens Araucária",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf4dwy858eg5e79k6cj",
+      "estimatedHours": 1.5,
+      "phase": "preliminar",
+      "actualHours": 1.5,
+      "dueDate": "2025-09-17",
+      "priority": "medium",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T21:16:51.793Z",
+      "updatedAt": "2025-09-21T01:30:00.994Z"
+    },
+    {
+      "id": "mfohhss2vcbdy6vxet",
+      "name": "Deslocamento",
+      "description": "Deslocamento das Empresas de Araucária para o escritório da Moore",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": null,
+      "estimatedHours": 0.5,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-17",
+      "priority": "low",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T21:18:37.298Z",
+      "updatedAt": "2025-09-17T21:19:33.153Z"
+    },
+    {
+      "id": "mfoi30l53v931w0dhgl",
+      "name": "Análise Contabilização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevqu5d31arqbktnc7m",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 1.5,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:07.193Z",
+      "updatedAt": "2025-09-21T01:27:28.862Z"
+    },
+    {
+      "id": "mfoi30l5u1tzbo1rk8",
+      "name": "Análise Contabilização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevqu5d3jsk0eoe9yz",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 3.25,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:07.193Z",
+      "updatedAt": "2025-09-21T01:27:54.271Z"
+    },
+    {
+      "id": "mfoi30l52mc4o0tcqfn",
+      "name": "Análise Contabilização",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevqu5d3rb7q1r4ab",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 0.5,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:07.193Z",
+      "updatedAt": "2025-09-21T01:29:27.671Z"
+    },
+    {
+      "id": "mfoi38xcf00kw4ucrm",
+      "name": "Recálculo INSS, FGTS e IR",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "parentId": "mevqu5d31arqbktnc7m",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:18.000Z"
+    },
+    {
+      "id": "mfoi38xca0vocvqourq",
+      "name": "Recálculo INSS, FGTS e IR",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "parentId": "mevqu5d3jsk0eoe9yz",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 2.5,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:18.000Z",
+      "updatedAt": "2025-09-21T01:28:10.086Z"
+    },
+    {
+      "id": "mfoi38xcekessz08maw",
+      "name": "Recálculo INSS, FGTS e IR",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "parentId": "mevqu5d3rb7q1r4ab",
+      "estimatedHours": 4,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-17T21:35:18.000Z"
+    },
+    {
+      "id": "mfoia7vmycv8j3rxfna",
+      "name": "Criação de Script para Validação de CFOP",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevpj96ejsb0b7bln9",
+      "estimatedHours": 2,
+      "phase": "preliminar",
+      "actualHours": 2,
+      "dueDate": "2026-09-18",
+      "priority": "low",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T21:40:43.234Z",
+      "updatedAt": "2025-09-18T13:56:55.749Z"
+    },
+    {
+      "id": "mfoidp2sf2v1wu6lo8f",
+      "name": "Criação de Script para Validação de Impostos FOPAG",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mevplx9bj1xqj7rofz",
+      "estimatedHours": 3.75,
+      "phase": "preliminar",
+      "actualHours": 3.75,
+      "dueDate": "2025-09-17",
+      "priority": "medium",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-17T21:43:25.493Z",
+      "updatedAt": "2025-09-21T01:27:01.098Z"
+    },
+    {
+      "id": "mfpnt9giiycbyvusck",
+      "name": "Reunião Elaine TOTVS",
+      "description": "Reunião com a Eliana, para entendimento das travas sistêmicas",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": "mf1ep848708k8gmpm6b",
+      "estimatedHours": 1.5,
+      "phase": "preliminar",
+      "actualHours": 1.5,
+      "dueDate": "2025-09-18",
+      "priority": "low",
+      "assignee": [
+        "Anderson",
+        "Amanda",
+        "Alexandre",
+        "Diemerson"
+      ],
+      "status": "completed",
+      "risks": [],
+      "createdAt": "2025-09-18T17:03:16.004Z",
+      "updatedAt": "2025-09-18T17:27:21.544Z"
+    },
+    {
+      "id": "mfqt6d7zfaf6gxx8jlo",
+      "name": "Relatório de Controles Internos",
+      "description": "",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 3.5,
+      "dueDate": "2025-09-26",
+      "priority": "low",
+      "assignee": [
+        "ANDERSON"
+      ],
+      "status": "progress",
+      "risks": [],
+      "createdAt": "2025-09-19T12:21:11.664Z",
+      "updatedAt": "2025-09-21T01:30:38.830Z"
+    },
+    {
+      "id": "mfqwlhxthzepyr6y68e",
+      "name": "Planejamento",
+      "description": "",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "clientId": "mfqwiq56bkl7m6ta0nr",
+      "parentId": null,
+      "estimatedHours": 8,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-10-15",
+      "priority": "medium",
+      "assignee": [
+        "ANDERSON"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-19T13:56:56.466Z"
+    },
+    {
+      "id": "mfqwm0ywefkkrysjxfq",
+      "name": "Solicitação de Documentos",
+      "description": "",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "clientId": "mfqwiq56bkl7m6ta0nr",
+      "parentId": "mfqwlhxthzepyr6y68e",
+      "estimatedHours": 1,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-19",
+      "priority": "medium",
+      "assignee": [
+        "ANDERSON"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-19T13:57:21.128Z"
+    },
+    {
+      "id": "mfqya5kk20hhrnnnyig",
+      "name": "Deslocamento",
+      "description": "Deslocamento das Empresas de Araucária para o escritório da Moore",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "parentId": null,
+      "estimatedHours": 20,
+      "phase": "preliminar",
+      "actualHours": 0,
+      "dueDate": "2025-09-17",
+      "priority": "low",
+      "assignee": [
+        "Anderson"
+      ],
+      "status": "pending",
+      "risks": [],
+      "createdAt": "2025-09-19T14:44:06.452Z",
+      "updatedAt": "2025-09-17T21:19:33.153Z"
+    }
+  ],
+  "controlPoints": [
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevpq4howhltrtcunbh",
+      "title": "Correção dos Saldos de Depreciação Vinculada a Projeto de Avaliação",
+      "type": "ressalva",
+      "phase": "preliminar",
+      "synthesis": "O ponto de auditoria de 2024, que apontou inconsistências no cálculo da depreciação devido a erros nas datas de início de imobilização, encontra-se em fase de implementação. A gestão informou que a correção definitiva está atrelada à conclusão do projeto de avaliação do imobilizado (conduzido pela \"Rosfil\"), que servirá de base para o re-cadastramento de toda a base de ativos.\n\nDo ponto de vista contábil, enquanto o projeto não for finalizado e os ativos não forem devidamente ajustados, o risco de distorção permanece. As inconsistências nas datas de início afetam diretamente o saldo da Depreciação Acumulada (conta redutora do ativo) e, consequentemente, o valor contábil líquido do imobilizado. Além disso, a Despesa de Depreciação, registrada no resultado do exercício, continua sendo impactada por esses erros de cálculo.",
+      "recommendation": "Recomenda-se que, durante o processo de re-cadastramento dos ativos com base no novo laudo, a Contabilidade assegure que as datas de início da depreciação e os respectivos saldos de depreciação acumulada sejam corretamente definidos e ajustados no sistema, eliminando as divergências que originaram o ponto.",
+      "legislation": "",
+      "id": "mfpvltqkti1ltn41uaa",
+      "createdAt": "2025-09-18T20:41:25.964Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevpq4howhltrtcunbh",
+      "title": "Conciliação do Imobilizado em Andamento e Vinculada a Projeto de Avaliação",
+      "type": "ressalva",
+      "phase": "preliminar",
+      "synthesis": "O ponto de auditoria de 2024, que apontou divergências entre o relatório de controle patrimonial e o saldo contábil do imobilizado, encontra-se em fase de implementação. A gestão informou que a regularização definitiva está vinculada à conclusão do projeto de avaliação da vida útil dos ativos, que está sendo conduzido pela empresa especializada \"Rosfil\".\n\nDo ponto de vista contábil, a pendência da conciliação final mantém o risco de distorção no balanço patrimonial. Até que a reconciliação seja concluída, o saldo da conta Ativo Imobilizado pode não corresponder à realidade física dos bens da companhia, impactando as afirmações de existência e exatidão deste ativo. A estratégia de aguardar o laudo para então conciliar é tecnicamente válida, mas o risco permanece até a efetiva conclusão de ambas as etapas.",
+      "recommendation": "Recomenda-se que, imediatamente após a conclusão do laudo de avaliação do imobilizado, a Contabilidade utilize o novo relatório patrimonial como base para realizar a conciliação completa contra o saldo contábil, efetuando os lançamentos de ajuste necessários para eliminar as divergências.",
+      "legislation": "",
+      "id": "mfpvionsartjnrt39hl",
+      "createdAt": "2025-09-18T20:38:59.416Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevpq4howhltrtcunbh",
+      "title": "Adequação das Taxas de Depreciação do Imobilizado em Andamento",
+      "type": "ressalva",
+      "phase": "preliminar",
+      "synthesis": "O ponto referente à utilização de taxas de depreciação fiscais em vez de taxas baseadas na vida útil econômica dos ativos, apontado em 2024, encontra-se em fase de implementação. Em atendimento à recomendação da auditoria, a gestão contratou uma empresa especializada (\"Rosfil\") para a elaboração do laudo técnico de vida útil do imobilizado, e os trabalhos estão em progresso.\n\nContabilmente, no entanto, o ponto permanece relevante, pois, até a data desta auditoria, o laudo não foi concluído e as novas taxas não foram implementadas. Dessa forma, a Despesa de Depreciação registrada no resultado e o valor contábil do Ativo Imobilizado no balanço patrimonial ainda não refletem a real consumação econômica dos bens, mantendo o risco de distorção apontado anteriormente até que o processo seja finalizado.",
+      "recommendation": "Recomenda-se que, assim que o laudo técnico de vida útil for concluído, a Contabilidade utilize o documento como base para a parametrização das novas taxas de depreciação no sistema e para o registro dos ajustes contábeis necessários.",
+      "legislation": "",
+      "id": "mfpv9fmpm83jjush31q",
+      "createdAt": "2025-09-18T20:31:47.809Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevd1zxz0xqy1229na",
+      "title": "Ausência de Não Aplicação da Provisão para Perdas em Estoques",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "O ponto sobre a necessidade de constituir provisão para perdas em estoques (Impairment), apontado em 2024, permanece em aberto. A auditoria, através de procedimento substantivo de análise do relatório de Custo do Produto Vendido (CPV) de 2025, encontrou novas evidências da manutenção da falha. Foram identificados diversos itens (ex: Fitilho, Corda PP/PE, Apara Impressão) sendo vendidos com margem de contribuição negativa, indicando que seu valor de venda é significativamente inferior ao seu custo contábil.\n\nA venda de produtos com prejuízo é um forte indicativo de que o Valor Realizável Líquido de itens similares em estoque é inferior ao seu custo. A ausência do registro da provisão para perdas resulta na superavaliação do ativo \"Estoques\" no balanço patrimonial, ferindo o princípio contábil fundamental de que os estoques devem ser mensurados pelo menor valor entre o custo e o valor realizável líquido.",
+      "recommendation": "Recomenda-se que a Contabilidade de Custos implemente e formalize uma rotina periódica de análise do valor realizável dos estoques. Essa análise deve ser evidenciada por meio de memória de cálculo e servir de base para o registro contábil da provisão para perdas, ajustando o ativo ao seu valor recuperável.",
+      "legislation": "",
+      "id": "mfpuxkkq1bsjhjgvf2n",
+      "createdAt": "2025-09-18T20:22:34.346Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevpgxdqfsepmoh5nlo",
+      "title": "Reincidência na Ausência de Política para Constituição de PECLD",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "A auditoria de 2024 já havia apontado a ausência de uma política formal para o cálculo e constituição da Provisão para Perdas Esperadas com Créditos de Liquidação Duvidosa (PECLD), o que resultou em ressalva nas demonstrações financeiras daquele exercício. O follow-up em 2025 constatou que a recomendação não foi implementada. A falta de uma metodologia definida foi evidenciada por lançamentos de baixa em julho, que foram estornados no mês seguinte, demonstrando inconsistência no tratamento contábil.\n\nA ausência desta política representa uma não conformidade com as normas contábeis vigentes. Do ponto de vista contábil, a consequência direta é a superavaliação do ativo \"Contas a Receber de Clientes\", uma vez que o saldo não reflete as perdas de crédito esperadas. Isso compromete a fidedignidade do balanço patrimonial e a correta apuração do resultado, pois as perdas não são reconhecidas no período de competência adequado.",
+      "recommendation": "Recomenda-se que a Contabilidade elabore e implemente, com urgência, uma política formal para o cálculo da PECLD. Esta política deve estabelecer uma metodologia consistente, como a matriz de provisão baseada no histórico de perdas por faixa de vencimento, para garantir que o saldo de contas a receber seja apresentado pelo seu valor justo de realização.",
+      "legislation": "",
+      "id": "mfpu7779j786t6dwj18",
+      "createdAt": "2025-09-18T20:02:03.957Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevd6et2xvizx8ew1",
+      "title": "Reincidência na Ausência de Termo de Responsabilidade de Caixa",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "Conforme apontado em 2024 e verificado em follow-up, a recomendação para formalizar Termos de Responsabilidade de Caixa não foi implementada, mantendo uma deficiência no ambiente de controles internos. Essa fragilidade contribuiu para a constatação, na presente auditoria, da existência de saldos em caixa que não estão registrados na contabilidade.\n\nA existência de caixa não contabilizado representa uma distorção relevante, pois o saldo da rubrica de Caixa e Equivalentes de Caixa está subavaliado, violando a afirmação de integridade (completeness) das demonstrações contábeis. Adicionalmente, a manutenção de recursos financeiros fora do controle contábil eleva significativamente o risco de uso indevido de ativos e cria contingências fiscais, uma vez que a origem e a aplicação desses recursos não são formalmente registradas.",
+      "recommendation": "Recomenda-se a adoção de ações corretivas em duas frentes:\n\nRegularização Contábil Imediata: A Contabilidade deve apurar a origem dos saldos de caixa não registrados e proceder com sua imediata contabilização, garantindo que o balanço patrimonial reflita a totalidade dos ativos da empresa.\n\nImplementação do Controle: Em conjunto com o RH, a Contabilidade deve elaborar e formalizar os Termos de Responsabilidade de Caixa, a fim de salvaguardar este ativo e prevenir a recorrência de movimentações financeiras não registradas.",
+      "legislation": "",
+      "id": "mfptufyrmyig88pvna",
+      "createdAt": "2025-09-18T19:52:08.787Z",
+      "updatedAt": "2025-09-18T20:02:29.125Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevpgxdqfsepmoh5nlo",
+      "title": "Reincidência na Não Conciliação de Saldos de Adiantamento de Clientes",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "Durante a auditoria de 2024, foi identificado que as empresas mantinham saldos significativos e antigos na conta de \"Adiantamento de Clientes\" (passivo), pendentes de conciliação contra as respectivas faturas em aberto no \"Contas a Receber\" (ativo). A recomendação na época foi a de realizar a imediata conciliação e baixa desses valores.\n\nEm procedimento de follow-up realizado em Julho de 2025, constatou-se que a recomendação não foi implementada e a situação permanece inalterada. A ausência desta conciliação resulta em uma distorção contábil dupla: o passivo (adiantamentos) pode estar superavaliado, ao mesmo tempo em que o ativo (contas a receber) também está superavaliado, uma vez que os pagamentos antecipados não foram devidamente compensados.\n\nA não resolução deste ponto, além de comprometer a fidedignidade dos saldos do balanço patrimonial, demonstra uma fragilidade no processo de monitoramento e execução das ações corretivas para os pontos de controle interno levantados pela auditoria.",
+      "recommendation": "Dada a reincidência do ponto e o risco de distorção contábil relevante no balanço patrimonial, recomenda-se que o departamento de Contabilidade adote medidas corretivas imediatas e definitivas para sanar a pendência, executando um procedimento completo de conciliação.",
+      "legislation": "",
+      "id": "mfptn1l97j3gxw7969q",
+      "createdAt": "2025-09-18T19:46:23.565Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62"
+      ],
+      "taskId": "mevpj96ejsb0b7bln9",
+      "title": "Descumprimento de Cláusulas Restritivas do Regime Especial de Tributação (Paraná Competitivo)",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "Durante os procedimentos de auditoria, constatamos que a Indústria realiza operações de venda de “lonas” para a empresa Embalagens, do mesmo grupo econômico, aplicando o benefício fiscal do programa Paraná Competitivo. Observamos que o regulamento do programa contempla determinados NCMs, como o de “tecidos”, mas não inclui o NCM correspondente às “lonas”. Constatamos, ainda, que há previsão expressa no regulamento que veda a utilização do benefício em operações de transferência interna entre empresas do mesmo titular, circunstância que se aplica às transações analisadas.",
+      "recommendation": "Recomendamos que a administração avalie, com apoio de consultoria tributária e jurídica especializada, os riscos e eventuais exposições decorrentes da aplicação do benefício nessas operações. Adicionalmente, sugerimos a revisão dos procedimentos de faturamento e classificação fiscal, de modo a assegurar que os registros futuros estejam alinhados às disposições do programa Paraná Competitivo e à legislação aplicável.",
+      "legislation": "",
+      "id": "mfptcabqvxw1bnyd2so",
+      "createdAt": "2025-09-18T19:38:01.670Z",
+      "updatedAt": "2025-09-18T19:38:44.598Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62"
+      ],
+      "taskId": "",
+      "title": "Não Conformidade com os Procedimentos Operacionais de Apontamento da Produção",
+      "type": "cci",
+      "phase": "operacional",
+      "synthesis": "Conforme verificado em diversos procedimentos operacionais da área de produção (como, por exemplo, o PT PRO02 e o PT PRO06), a diretriz da empresa é que o apontamento da produção no sistema deve ser realizado de forma tempestiva, logo após a conclusão de cada etapa produtiva.\n\nFoi constatado, no entanto, que esta diretriz geral não é seguida durante o turno da noite. Devido à ausência de um colaborador designado para esta função nesse período, todos os registros de produção e consumo de materiais são postergados para o turno seguinte.\n\nEssa prática representa uma não conformidade com os procedimentos internos e é a causa raiz da desatualização dos saldos de estoque.",
+      "recommendation": "A recomendação principal é garantir que a operação do turno da noite seja adequada para cumprir integralmente as diretrizes dos procedimentos operacionais de produção, assegurando o registro tempestivo das informações.\n\nPara isso, a ação mais eficaz é designar um responsável no turno da noite, como um líder ou operador-chave, que deverá ser treinado para realizar os registros de produção e consumo de materiais ao final de cada processo, em conformidade com as normas internas.",
+      "legislation": "",
+      "id": "mfpqtfd1jiitf8dw7oe",
+      "createdAt": "2025-09-18T18:27:22.501Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62"
+      ],
+      "taskId": "",
+      "title": "Não Conformidade com o Procedimento Interno de Compras (PT AQU01)",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "A empresa possui um procedimento de trabalho (PT AQU01) que estabelece formalmente as etapas para o processo de compras, incluindo a solicitação via sistema, a realização de múltiplas cotações e a aprovação formal pela diretoria antes da efetivação do pedido.\n\nNo entanto, foi constatado que este procedimento não está sendo seguido para a aquisição de matérias-primas estratégicas (polipropileno e polietileno). Essas compras, negociadas pela presidência, ocorrem sem o registro prévio de solicitação e pedido, contrariando diretamente os itens 3.1, 3.2 e 3.3 do procedimento. A formalização no sistema ocorre apenas retroativamente, após a chegada da mercadoria.\n\nEssa inobservância do procedimento estabelecido não só acarreta os riscos financeiros e operacionais já mencionados (falta de visibilidade de caixa, ausência de validação no recebimento), mas também compromete a integridade e a cultura de controles internos da companhia. A não adesão da alta gestão aos procedimentos estabelecidos envia uma mensagem de que as regras podem ser ignoradas, fragilizando a governança corporativa.",
+      "recommendation": "A recomendação principal é o cumprimento integral e sem exceções do procedimento de compras PT AQU01 para todas as aquisições da empresa, reforçando a importância da política e a adesão da própria liderança como fator crítico para a governança.\n\nContudo, se a gestão entender que a agilidade na negociação de matérias-primas estratégicas pela presidência é uma exceção necessária para o negócio, recomenda-se a seguinte alternativa:\n\nFormalização da Prática Atual como uma Exceção Controlada:\n\nCaso a empresa opte por manter a prática atual, é fundamental que ela deixe de ser um ato informal e seja devidamente documentada dentro do procedimento PT AQU01. Esta formalização deve incluir, no mínimo:\n\nDefinição da Exceção: Descrever claramente em quais circunstâncias (ex: compra de polipropileno e polietileno) e por quem a compra pode ser realizada fora do fluxo padrão.\n\nCriação de um Fluxo de Comunicação Imediato: Assim que o compromisso de compra for assumido, deve haver um procedimento obrigatório para que a presidência (ou seu staff) comunique imediatamente os detalhes da negociação (fornecedor, item, quantidade, preço e prazo de entrega) aos departamentos de Contabilidade/Financeiro e de Recebimento.\n\nRastreabilidade no Sistema: Estabelecer um processo para a criação do Pedido de Compra retroativo, mas de forma padronizada e com a devida aprovação registrada no sistema, garantindo a rastreabilidade e a correta associação com a nota fiscal.\n\nIndependentemente da opção escolhida, a instrução de que o departamento de recebimento só deve aceitar mercadorias que possuam um Pedido de Compra correspondente no sistema deve ser mantida e reforçada.",
+      "legislation": "",
+      "id": "mfpq5e9830fzk4r4xkc",
+      "createdAt": "2025-09-18T18:08:41.325Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "",
+      "title": "Distorção no Custo do Produto por Custeio Incorreto de Resíduos",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "Foi identificado que o sistema de gestão (ERP) não trata corretamente os resíduos gerados que retornam ao processo produtivo. Ao serem reaproveitados, esses materiais são registrados com o custo agregado de um produto acabado, em vez de serem valorizados pelo seu custo real como subproduto ou sucata (que é significativamente menor.\n\nEssa falha sistêmica causa uma distorção grave no custeio dos novos itens que utilizam esse resíduo. O custo do segundo produto acaba sendo artificialmente inflado, pois ele \"herda\" todos os custos de matéria-prima, mão de obra e custos indiretos do processo que gerou o resíduo originalmente. Consequentemente, a análise de rentabilidade desses produtos fica comprometida, podendo levar a decisões gerenciais equivocadas sobre preços de venda ou mix de produção.",
+      "recommendation": "A recomenda-se ajustar a parametrização do sistema ERP, para que ele possa interpretar corretamente os resíduos gerados.",
+      "legislation": "",
+      "id": "mfpprpaf8wpq5qot498",
+      "createdAt": "2025-09-18T17:58:02.439Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "",
+      "title": "Falha no Controle de Consumo de Materiais na Produção",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "O sistema realiza a baixa de materiais do estoque com base no consumo padrão definido na estrutura do produto (ficha técnica), e não na quantidade que foi efetivamente utilizada na produção. Identificamos que existe uma tolerância informal, não documentada em política, para variações de até 3% entre o consumo previsto e o real. Embora o percentual pareça baixo, o alto volume da operação faz com que essa diferença gere divergências de estoque financeiramente relevantes. Como resultado, a empresa precisa realizar ajustes manuais constantes no inventário para corrigir as discrepâncias, tratando o sintoma (a diferença no saldo) em vez de atacar a causa raiz das perdas ou ganhos no processo produtivo",
+      "recommendation": "Para controlar e corrigir as diferenças entre o estoque físico e o que está registrado no sistema, a recomendação principal é implementar uma rotina de inventário cíclico.\n\nEm vez de contar todo o estoque apenas uma vez por ano, o inventário cíclico consiste em realizar contagens menores e mais frequentes (semanais ou quinzenais) de diferentes grupos de materiais.",
+      "legislation": "",
+      "id": "mfppm5wk46kqlc59e6d",
+      "createdAt": "2025-09-18T17:53:44.036Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "",
+      "title": "Ausência de Conciliação",
+      "type": "cci",
+      "phase": "preliminar",
+      "synthesis": "Foi constatada a ausência de uma rotina formal e tempestiva de conciliação para as contas da empresa, com especial criticidade nos saldos relacionados à folha de pagamento e seus respectivos encargos. Essa deficiência no processo de fechamento mensal compromete a fidedignidade dos relatórios financeiros, pois os saldos podem não refletir com exatidão a posição real da companhia. Adicionalmente, a falta deste controle eleva significativamente o risco de contingências fiscais e trabalhistas, uma vez que erros no recolhimento de tributos podem não ser identificados, resultando em potenciais multas e autuações.",
+      "recommendation": "Recomenda-se a imediata implementação de uma política de fechamento que torne obrigatória a conciliação mensal de todas as contas do balancete. Esta política deve definir claramente os responsáveis por cada grupo de contas e estabelecer prazos-limite para a execução e revisão dos procedimentos. Como evidência da execução e para garantir a qualidade do processo, todas as conciliações deverão ser formalmente documentadas, arquivadas e conter a aprovação de um supervisor ou gestor, assegurando assim a rastreabilidade e a eficácia do controle interno.",
+      "legislation": "",
+      "id": "mfpp57gnxgt65q3sbud",
+      "createdAt": "2025-09-18T17:40:32.903Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "taskId": "mevd1zxz0xqy1229na",
+      "title": "Estoques em Poder de Terceiros",
+      "type": "cci",
+      "synthesis": "A baixa de insumos remetidos para industrialização em terceiros é automática, baseada exclusivamente na ficha técnica padrão do produto. Não há conciliação com o consumo real reportado pelo parceiro.\n\nRiscos\nContábil: Saldo de estoque em poder de terceiros superestimado ou subestimado, ferindo a acuracidade exigida pelo CPC 16.\n\nCusto: Custo do Produto Vendido (CPV) distorcido, mascarando ineficiências ou perdas não reportadas no processo produtivo.\n\nOperacional: Falta de controle sobre perdas e extravios de materiais, fragilizando a salvaguarda do ativo.",
+      "recommendation": "Implementar um processo mandatório de conciliação do consumo antes da baixa contábil:\n\nExigir Relatório de Consumo: O parceiro industrializador deve enviar um relatório detalhado do consumo real junto com a nota fiscal de retorno.\n\nCriar Ponto de Checagem: O PCP ou Recebimento deve confrontar o consumo real (relatório) com o consumo teórico.\n\nAjustar o Sistema (ERP): A nota de retorno deve ficar \"pendente\" até que a conciliação seja feita e as divergências (se houver) sejam aprovadas por um gestor e ajustadas no sistema.\n\nRealizar Inventários Cíclicos: Efetuar contagens físicas periódicas no estoque em posse dos terceiros.",
+      "legislation": "NA",
+      "id": "mfnbb2vc0auvmr7w4106",
+      "createdAt": "2025-09-17T01:37:39.912Z",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "phase": "preliminar",
+      "updatedAt": "2025-09-18T17:33:30.202Z"
+    },
+    {
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientIds": [
+        "mevbfv2d3ucs3m3iq62",
+        "mevefs5d10vqocf7tx4",
+        "mevegh1sg4ib6zwiwe",
+        "mevehj3m4vvzrpmll5j"
+      ],
+      "taskId": "mevcxbun4o61c3n184q",
+      "title": "Ponto em Acompanhamento: Regime de Competência na Contabilização de Comissões",
+      "type": "ressalva",
+      "phase": "preliminar",
+      "synthesis": "A auditoria de 2024 apontou que as despesas de comissões sobre vendas eram registradas em desacordo com o regime de competência, sendo contabilizadas apenas no momento do pagamento (regime de caixa). A verificação da implementação da rotina de provisionamento mensal, recomendada na época, ainda não foi realizada nesta fase da auditoria.\n\nA ausência da provisão mensal pode gerar uma subavaliação das Despesas Comerciais na Demonstração do Resultado e uma correspondente subavaliação do passivo (\"Comissões a Pagar\") no balanço patrimonial, comprometendo a correta apuração do resultado do período.",
+      "recommendation": "Mantém-se a recomendação de que a Contabilidade realize o registro mensal da provisão para as despesas com comissões, em estrita observância ao regime de competência. A efetividade da implementação deste procedimento será objeto de teste na fase final dos trabalhos de auditoria.",
+      "legislation": "",
+      "id": "mfpvqy776mmurbbldae",
+      "createdAt": "2025-09-18T20:45:25.027Z"
+    }
+  ],
+  "timeEntries": [
+    {
+      "id": "mfqt0qgp7liisfwci",
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "taskId": "mevplx9bj1xqj7rofz",
+      "subtaskId": "mfoidp2sf2v1wu6lo8f",
+      "hours": 1,
+      "description": "Criação de um TO DO que se comunique com o gerenciador de tarefas",
+      "createdAt": 1758284208889,
+      "billed": true
+    },
+    {
+      "id": "mfqt868l3w8m5l2mgcw",
+      "date": "2025-09-18",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "taskId": "mfqt6d7zfaf6gxx8jlo",
+      "subtaskId": null,
+      "hours": 3.5,
+      "description": "Elaboração de relatório com os pontos já identificados em 2025 e com os que foram apontados em 2024 que ainda permanecem.",
+      "createdAt": 1758284555925,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "taskId": "mf4dwy858eg5e79k6cj",
+      "subtaskId": null,
+      "hours": 1,
+      "description": "Conversa com o Gibur",
+      "id": "mfqwbd5hhu1yqmbkqf5",
+      "createdAt": 1758289743701,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevhuqdsw4tx0lrjmr",
+      "clientId": "mfqwiq56bkl7m6ta0nr",
+      "taskId": "mfqwlhxthzepyr6y68e",
+      "subtaskId": "mfqwm0ywefkkrysjxfq",
+      "hours": 1,
+      "description": "Criação das pastas no SharePoint e envio da solicitação de documentos.",
+      "id": "mfqwn2q5oi7j5j36i8",
+      "createdAt": 1758290290061,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevbfv2d3ucs3m3iq62",
+      "taskId": "mfqya5kk20hhrnnnyig",
+      "subtaskId": null,
+      "hours": 0.75,
+      "description": "Tempo que será ajustado no cartão por causa da peculiaridade do cliente.",
+      "id": "mfqybzbhiakg06e89w",
+      "createdAt": 1758293131661,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "taskId": "mevqu5d31arqbktnc7m",
+      "subtaskId": "mfoi30l53v931w0dhgl",
+      "hours": 0.75,
+      "description": "Preparação dos WP para realizar a análise",
+      "id": "mfr2p40249uy4d0iwsc",
+      "createdAt": 1758300462722,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "taskId": "mevqu5d31arqbktnc7m",
+      "subtaskId": "mfoi30l53v931w0dhgl",
+      "hours": 0.5,
+      "description": "Continuação da preparação do WP",
+      "id": "mfr421y8s3o11yvib8k",
+      "createdAt": 1758302746208,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "taskId": "mevqu5d3jsk0eoe9yz",
+      "subtaskId": "mfoi30l5u1tzbo1rk8",
+      "hours": 1,
+      "description": "Conversa com a Solange para entender a diferença encontrada no mês de maio",
+      "id": "mfr6cao9lkqomvh2629",
+      "createdAt": 1758306583305,
+      "billed": true
+    },
+    {
+      "date": "2025-09-19",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "taskId": "mevqu5d3jsk0eoe9yz",
+      "subtaskId": "mfoi38xca0vocvqourq",
+      "hours": 1,
+      "description": "Editando o script para realizar a análise",
+      "id": "mfr9dqoxsbhxg8bhbur",
+      "createdAt": 1758311689569,
+      "billed": true
+    },
+    {
+      "date": "2025-09-20",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "taskId": "mevqu5d3jsk0eoe9yz",
+      "subtaskId": "mfoi38xca0vocvqourq",
+      "hours": 1.5,
+      "description": "Continuação",
+      "id": "mfswdisjnov9ixwy86q",
+      "createdAt": 1758410776675,
+      "billed": true
+    },
+    {
+      "date": "2025-09-20",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevegh1sg4ib6zwiwe",
+      "taskId": "mevqu5d3jsk0eoe9yz",
+      "subtaskId": "mfoi30l5u1tzbo1rk8",
+      "hours": 0.25,
+      "description": "Continuação",
+      "id": "mfsxa53lqh7klhfxcd",
+      "createdAt": 1758412298577,
+      "billed": true
+    },
+    {
+      "date": "2025-09-20",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevefs5d10vqocf7tx4",
+      "taskId": "mevqu5d31arqbktnc7m",
+      "subtaskId": "mfoi30l53v931w0dhgl",
+      "hours": 0.25,
+      "description": "Continuação",
+      "id": "mfsxvqf9nm19v0bmpka",
+      "createdAt": 1758413305989,
+      "billed": true
+    },
+    {
+      "date": "2025-09-20",
+      "projectId": "mevbdv6rah4qrv7ay4o",
+      "clientId": "mevehj3m4vvzrpmll5j",
+      "taskId": "mevqu5d3rb7q1r4ab",
+      "subtaskId": "mfoi30l52mc4o0tcqfn",
+      "hours": 0.5,
+      "description": "Elaboração do WP",
+      "id": "mft0hqcjdhkl870qd3v",
+      "createdAt": 1758417691555,
+      "billed": true
+    }
+  ]
+}
